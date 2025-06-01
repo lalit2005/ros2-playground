@@ -1,0 +1,8 @@
+{
+  "package_name": "bot_interfaces",
+  "non_idl_tuples": [
+    "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces:msg/HardwareStatus.msg",
+    "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces:srv/ResetCounter.srv",
+    "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces:action/CountUntil.action"
+  ]
+}

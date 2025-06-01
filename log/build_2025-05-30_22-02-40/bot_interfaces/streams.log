@@ -1,0 +1,17 @@
+[0.049s] Invoking command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted /usr/bin/cmake /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces
+[0.122s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[1.160s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.218s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+[1.272s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.653s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.982s] -- Found rosidl_adapter: 4.9.4 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[1.997s] [31mCMake Error at /opt/ros/kilted/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[1.997s]   rosidl_generate_interfaces() the passed file '  ' doesn't exist
+[1.998s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.999s]   '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces'
+[2.000s] Call Stack (most recent call first):
+[2.000s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[2.001s] 
+[2.002s] [0m
+[2.002s] -- Configuring incomplete, errors occurred!
+[2.018s] Invoked command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted /usr/bin/cmake /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces

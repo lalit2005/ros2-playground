@@ -1,0 +1,5 @@
+[console_scripts]
+client = pkg1.client:main
+numpub = pkg1.numpub:main
+numsub = pkg1.numsub:main
+test_node = pkg1.mynode:main

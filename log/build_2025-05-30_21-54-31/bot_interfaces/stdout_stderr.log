@@ -1,0 +1,7 @@
+-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+[31mCMake Error at CMakeLists.txt:14 (rosidl_generate_interfaces):
+  Unknown CMake command "rosidl_generate_interfaces".
+
+[0m
+-- Configuring incomplete, errors occurred!

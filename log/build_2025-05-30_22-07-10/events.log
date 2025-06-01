@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.001658] (-) JobUnselected: {'identifier': 'pkg1'}
+[0.001818] (bot_interfaces) JobQueued: {'identifier': 'bot_interfaces', 'dependencies': OrderedDict()}
+[0.001919] (bot_interfaces) JobStarted: {'identifier': 'bot_interfaces'}
+[0.034857] (bot_interfaces) JobProgress: {'identifier': 'bot_interfaces', 'progress': 'cmake'}
+[0.036811] (bot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces'], 'cwd': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces', 'env': OrderedDict({'USER': 'lalit', 'STARSHIP_SHELL': 'zsh', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'BUN_INSTALL': '/home/lalit/.bun', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/lalit', 'OLDPWD': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src', 'TERMINFO': '/usr/lib/kitty/terminfo', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/lalit/.config/autostart/kitty.desktop', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '2682', 'KITTY_PID': '3132', 'FNM_ARCH': 'x64', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'SYSTEMD_EXEC_PID': '2873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3132', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'FNM_VERSION_FILE_STRATEGY': 'local', 'FNM_LOGLEVEL': 'info', 'ROS_DISTRO': 'kilted', 'COLCON_PREFIX_PATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install', 'LOGNAME': 'lalit', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '9:23745', 'DESKTOP_AUTOSTART_ID': '10907c8ee258e54cc174859644977131600000028730018', 'FNM_NODE_DIST_MIRROR': 'https://nodejs.org/dist', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'lalit', 'TERM': 'xterm-kitty', 'KITTY_PUBLIC_KEY': '1:rB1>0U33qD*$dm=<4}dJCW3IQlcPprBrN+mn!B42', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/home/lalit/.bun/bin:/run/user/1000/fnm_multishells/6722_1748596853312/bin:/home/lalit/.local/share/fnm:/home/lalit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lalit/.fzf/bin', 'INVOCATION_ID': 'd2fa0050af284aec875ba8b500ecf9fa', 'SESSION_MANAGER': 'local/lalit-thinkpad:@/tmp/.ICE-unix/2873,unix/lalit-thinkpad:/tmp/.ICE-unix/2873', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.XQ4Z62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'FNM_DIR': '/home/lalit/.local/share/fnm', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'FNM_RESOLVE_ENGINES': 'true', 'AMENT_PREFIX_PATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted', 'ROS_DOMAIN_ID': '230', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '3', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/kilted/share', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces', 'FNM_MULTISHELL_PATH': '/run/user/1000/fnm_multishells/6722_1748596853312', 'XDG_DATA_DIRS': '/home/lalit/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'STARSHIP_SESSION_KEY': '7007184826019218', 'PYTHONPATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'FNM_COREPACK_ENABLED': 'false', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted'}), 'shell': False}
+[0.079578] (bot_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.080186] (bot_interfaces) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.080580] (bot_interfaces) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.080885] (bot_interfaces) StderrLine: {'line': b'  code such as\n'}
+[0.081168] (bot_interfaces) StderrLine: {'line': b'\n'}
+[0.081507] (bot_interfaces) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.081801] (bot_interfaces) StderrLine: {'line': b'\n'}
+[0.082076] (bot_interfaces) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.082379] (bot_interfaces) StderrLine: {'line': b'\n'}
+[0.082682] (bot_interfaces) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.082958] (bot_interfaces) StderrLine: {'line': b'  line.\n'}
+[0.083231] (bot_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.083561] (bot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.083840] (bot_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.084107] (bot_interfaces) StderrLine: {'line': b'  cmake_minimum_required() should be called prior to this top-level project()\n'}
+[0.084416] (bot_interfaces) StderrLine: {'line': b'  call.  Please see the cmake-commands(7) manual for usage documentation of\n'}
+[0.084702] (bot_interfaces) StderrLine: {'line': b'  both commands.\n'}
+[0.084968] (bot_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.085237] (bot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.099241] (-) TimerEvent: {}
+[0.126134] (bot_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.5.0 (/opt/ros/kilted/share/geometry_msgs/cmake)\n'}
+[0.199429] (-) TimerEvent: {}
+[0.300062] (-) TimerEvent: {}
+[0.401382] (-) TimerEvent: {}
+[0.501990] (-) TimerEvent: {}
+[0.602787] (-) TimerEvent: {}
+[0.703442] (-) TimerEvent: {}
+[0.804019] (-) TimerEvent: {}
+[0.904664] (-) TimerEvent: {}
+[1.005249] (-) TimerEvent: {}
+[1.023434] (bot_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.070207] (bot_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/kilted/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):\n'}
+[1.071717] (bot_interfaces) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[1.072119] (bot_interfaces) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[1.072538] (bot_interfaces) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.072893] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.073230] (bot_interfaces) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[1.073637] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.073983] (bot_interfaces) StderrLine: {'line': b'    "TRUE"\n'}
+[1.074371] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.074751] (bot_interfaces) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[1.075093] (bot_interfaces) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[1.075547] (bot_interfaces) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[1.076025] (bot_interfaces) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.076450] (bot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.076823] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)\n'}
+[1.077203] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[1.077617] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[1.078087] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.078494] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[1.078856] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.079195] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[1.079635] (bot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[1.079994] (bot_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.080364] (bot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.080733] (bot_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/kilted/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):\n'}
+[1.081073] (bot_interfaces) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[1.081499] (bot_interfaces) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[1.081864] (bot_interfaces) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.082203] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.082602] (bot_interfaces) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[1.082948] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.083345] (bot_interfaces) StderrLine: {'line': b'    "TRUE"\n'}
+[1.083726] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.084060] (bot_interfaces) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[1.084453] (bot_interfaces) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[1.084843] (bot_interfaces) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[1.085178] (bot_interfaces) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.085600] (bot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.085955] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)\n'}
+[1.086348] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[1.086793] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[1.087127] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.087517] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[1.087857] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.088494] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[1.089103] (bot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[1.089750] (bot_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.090402] (bot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.105431] (-) TimerEvent: {}
+[1.120087] (bot_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/kilted/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):\n'}
+[1.121000] (bot_interfaces) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[1.121704] (bot_interfaces) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[1.122458] (bot_interfaces) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.123140] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.123622] (bot_interfaces) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[1.123983] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.124350] (bot_interfaces) StderrLine: {'line': b'    "TRUE"\n'}
+[1.124764] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.125101] (bot_interfaces) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[1.125560] (bot_interfaces) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[1.125926] (bot_interfaces) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[1.126258] (bot_interfaces) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.126689] (bot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.127041] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)\n'}
+[1.127444] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[1.127827] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[1.128171] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.128588] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[1.128941] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.129514] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[1.129890] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.130354] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[1.130764] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.131105] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[1.131506] (bot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[1.131868] (bot_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.132203] (bot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.132648] (bot_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/kilted/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):\n'}
+[1.133010] (bot_interfaces) StderrLine: {'line': b'  Policy CMP0130 is not set: while() diagnoses condition evaluation errors.\n'}
+[1.133430] (bot_interfaces) StderrLine: {'line': b'  Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy\n'}
+[1.133816] (bot_interfaces) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.134155] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.134596] (bot_interfaces) StderrLine: {'line': b'  while() given incorrect arguments:\n'}
+[1.134949] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.135353] (bot_interfaces) StderrLine: {'line': b'    "TRUE"\n'}
+[1.135753] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.136095] (bot_interfaces) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[1.136537] (bot_interfaces) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[1.136902] (bot_interfaces) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[1.137238] (bot_interfaces) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.137674] (bot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.138050] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)\n'}
+[1.138489] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[1.138870] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[1.139328] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.139748] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[1.140089] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.140545] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[1.140912] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.141248] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[1.141700] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.142053] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[1.142476] (bot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[1.142864] (bot_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.143202] (bot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.200849] (bot_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/kilted/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[1.201455] (bot_interfaces) StderrLine: {'line': b'  Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake\n'}
+[1.202222] (bot_interfaces) StderrLine: {'line': b'  --help-policy CMP0057" for policy details.  Use the cmake_policy command to\n'}
+[1.203021] (bot_interfaces) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.203588] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.203950] (bot_interfaces) StderrLine: {'line': b'  IN_LIST will be interpreted as an operator when the policy is set to NEW.\n'}
+[1.204309] (bot_interfaces) StderrLine: {'line': b'  Since the policy is not set the OLD behavior will be used.\n'}
+[1.204682] (bot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.204992] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)\n'}
+[1.205402] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[1.205738] (-) TimerEvent: {}
+[1.206129] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.206627] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[1.206982] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.207333] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[1.207683] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.208025] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[1.208372] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.208702] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[1.208995] (bot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[1.209333] (bot_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.209829] (bot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.210417] (bot_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/kilted/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[1.211031] (bot_interfaces) StderrLine: {'line': b'  if given arguments:\n'}
+[1.211583] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.212172] (bot_interfaces) StderrLine: {'line': b'    "NOT" "element" "IN_LIST" "rcutils_RECURSIVE_DEPENDENCIES"\n'}
+[1.212757] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.213955] (bot_interfaces) StderrLine: {'line': b'  Unknown arguments specified\n'}
+[1.215181] (bot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.215941] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)\n'}
+[1.216676] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[1.217419] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.218176] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[1.218889] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.219696] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[1.220308] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.221105] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[1.221735] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.222425] (bot_interfaces) StderrLine: {'line': b'  /opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[1.223079] (bot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[1.224584] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.225782] (bot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.228163] (bot_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[1.228901] (bot_interfaces) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[1.229691] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.231438] (bot_interfaces) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.28)\n'}
+[1.232002] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.232816] (bot_interfaces) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[1.233515] (bot_interfaces) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[1.235289] (bot_interfaces) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[1.235879] (bot_interfaces) StderrLine: {'line': b'\n'}
+[1.236497] (bot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.237106] (bot_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.237773] (bot_interfaces) CommandEnded: {'returncode': 1}
+[1.305937] (-) TimerEvent: {}
+[1.317018] (bot_interfaces) JobEnded: {'identifier': 'bot_interfaces', 'rc': 1}
+[1.328762] (-) EventReactorShutdown: {}

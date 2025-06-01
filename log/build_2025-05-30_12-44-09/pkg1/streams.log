@@ -1,0 +1,24 @@
+[1.460s] Invoking command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/pkg1': PYTHONPATH=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg1 build --build-base /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/build install --record /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/install.log --single-version-externally-managed install_data
+[1.948s] running egg_info
+[1.981s] writing ../../build/pkg1/pkg1.egg-info/PKG-INFO
+[1.981s] writing dependency_links to ../../build/pkg1/pkg1.egg-info/dependency_links.txt
+[1.982s] writing entry points to ../../build/pkg1/pkg1.egg-info/entry_points.txt
+[1.982s] writing requirements to ../../build/pkg1/pkg1.egg-info/requires.txt
+[1.982s] writing top-level names to ../../build/pkg1/pkg1.egg-info/top_level.txt
+[2.054s] reading manifest file '../../build/pkg1/pkg1.egg-info/SOURCES.txt'
+[2.056s] writing manifest file '../../build/pkg1/pkg1.egg-info/SOURCES.txt'
+[2.056s] running build
+[2.057s] running build_py
+[2.057s] copying pkg1/__init__.py -> /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/build/lib/pkg1
+[2.057s] running install
+[2.068s] running install_lib
+[2.103s] copying /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/build/lib/pkg1/__init__.py -> /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages/pkg1
+[2.104s] byte-compiling /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages/pkg1/__init__.py to __init__.cpython-312.pyc
+[2.105s] running install_data
+[2.105s] running install_egg_info
+[2.147s] removing '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages/pkg1-0.0.0-py3.12.egg-info' (and everything under it)
+[2.147s] Copying ../../build/pkg1/pkg1.egg-info to /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages/pkg1-0.0.0-py3.12.egg-info
+[2.150s] running install_scripts
+[2.445s] Installing test_node script to /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/pkg1
+[2.445s] writing list of installed files to '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/install.log'
+[2.482s] Invoked command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/pkg1' returned '0': PYTHONPATH=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg1 build --build-base /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/build install --record /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/install.log --single-version-externally-managed install_data

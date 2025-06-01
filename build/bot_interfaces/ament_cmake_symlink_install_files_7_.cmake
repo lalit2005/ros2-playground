@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces" FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_adapter/bot_interfaces/msg/HardwareStatus.idl" "DESTINATION" "share/bot_interfaces/msg")

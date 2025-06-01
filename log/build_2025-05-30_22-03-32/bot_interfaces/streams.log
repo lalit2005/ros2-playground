@@ -1,0 +1,17 @@
+[0.045s] Invoking command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted /usr/bin/cmake /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces -DCMAKE_INSTALL_PREFIX=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces
+[0.103s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[1.032s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.067s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+[1.079s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.448s] -- Found rosidl_adapter: 4.9.4 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[1.458s] [31mCMake Error at /opt/ros/kilted/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[1.459s]   rosidl_generate_interfaces() the passed file '  ' doesn't exist
+[1.460s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.461s]   '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces'
+[1.461s] Call Stack (most recent call first):
+[1.462s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[1.463s] 
+[1.463s] [0m
+[1.464s] -- Configuring incomplete, errors occurred!
+[1.481s] Invoked command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted /usr/bin/cmake /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces -DCMAKE_INSTALL_PREFIX=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces

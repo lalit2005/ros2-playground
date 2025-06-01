@@ -1,0 +1,9 @@
+[0.039s] Invoking command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted /usr/bin/cmake /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces
+[0.101s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.956s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.988s] [31mCMake Error at CMakeLists.txt:14 (rosidl_generate_interfaces):
+[0.988s]   Unknown CMake command "rosidl_generate_interfaces".
+[0.989s] 
+[0.989s] [0m
+[0.989s] -- Configuring incomplete, errors occurred!
+[1.001s] Invoked command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted /usr/bin/cmake /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces

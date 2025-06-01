@@ -1,0 +1,452 @@
+[0.000000] (-) TimerEvent: {}
+[0.000562] (-) JobUnselected: {'identifier': 'pkg1'}
+[0.001829] (bot_interfaces) JobQueued: {'identifier': 'bot_interfaces', 'dependencies': OrderedDict()}
+[0.001999] (bot_interfaces) JobStarted: {'identifier': 'bot_interfaces'}
+[0.037975] (bot_interfaces) JobProgress: {'identifier': 'bot_interfaces', 'progress': 'cmake'}
+[0.042226] (bot_interfaces) JobProgress: {'identifier': 'bot_interfaces', 'progress': 'build'}
+[0.046281] (bot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces', 'env': OrderedDict({'USER': 'lalit', 'STARSHIP_SHELL': 'zsh', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'BUN_INSTALL': '/home/lalit/.bun', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/lalit', 'OLDPWD': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src', 'TERMINFO': '/usr/lib/kitty/terminfo', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/lalit/.config/autostart/kitty.desktop', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '2682', 'KITTY_PID': '3132', 'FNM_ARCH': 'x64', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'SYSTEMD_EXEC_PID': '2873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3132', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'FNM_VERSION_FILE_STRATEGY': 'local', 'FNM_LOGLEVEL': 'info', 'ROS_DISTRO': 'kilted', 'COLCON_PREFIX_PATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install', 'LOGNAME': 'lalit', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '9:23745', 'DESKTOP_AUTOSTART_ID': '10907c8ee258e54cc174859644977131600000028730018', 'FNM_NODE_DIST_MIRROR': 'https://nodejs.org/dist', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'lalit', 'TERM': 'xterm-kitty', 'KITTY_PUBLIC_KEY': '1:rB1>0U33qD*$dm=<4}dJCW3IQlcPprBrN+mn!B42', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/home/lalit/.bun/bin:/run/user/1000/fnm_multishells/6722_1748596853312/bin:/home/lalit/.local/share/fnm:/home/lalit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lalit/.fzf/bin', 'INVOCATION_ID': 'd2fa0050af284aec875ba8b500ecf9fa', 'SESSION_MANAGER': 'local/lalit-thinkpad:@/tmp/.ICE-unix/2873,unix/lalit-thinkpad:/tmp/.ICE-unix/2873', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.XQ4Z62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'FNM_DIR': '/home/lalit/.local/share/fnm', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'FNM_RESOLVE_ENGINES': 'true', 'AMENT_PREFIX_PATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted', 'ROS_DOMAIN_ID': '230', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '3', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/kilted/share', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces', 'FNM_MULTISHELL_PATH': '/run/user/1000/fnm_multishells/6722_1748596853312', 'XDG_DATA_DIRS': '/home/lalit/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'STARSHIP_SESSION_KEY': '7007184826019218', 'PYTHONPATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'FNM_COREPACK_ENABLED': 'false', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted'}), 'shell': False}
+[0.097061] (-) TimerEvent: {}
+[0.192300] (bot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[0.197293] (-) TimerEvent: {}
+[0.297897] (-) TimerEvent: {}
+[0.328615] (bot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.398148] (-) TimerEvent: {}
+[0.498928] (-) TimerEvent: {}
+[0.599732] (-) TimerEvent: {}
+[0.690155] (bot_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.699913] (-) TimerEvent: {}
+[0.724644] (bot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)\n'}
+[0.735776] (bot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800070] (-) TimerEvent: {}
+[0.886418] (bot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900280] (-) TimerEvent: {}
+[1.001029] (-) TimerEvent: {}
+[1.015151] (bot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.9.4 (/opt/ros/kilted/share/rosidl_adapter/cmake)\n'}
+[1.101211] (-) TimerEvent: {}
+[1.201962] (-) TimerEvent: {}
+[1.302731] (-) TimerEvent: {}
+[1.403455] (-) TimerEvent: {}
+[1.504144] (-) TimerEvent: {}
+[1.604784] (-) TimerEvent: {}
+[1.705352] (-) TimerEvent: {}
+[1.807340] (-) TimerEvent: {}
+[1.908450] (-) TimerEvent: {}
+[2.009222] (-) TimerEvent: {}
+[2.109808] (-) TimerEvent: {}
+[2.193104] (bot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros_core: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)\n'}
+[2.209941] (-) TimerEvent: {}
+[2.310613] (-) TimerEvent: {}
+[2.411351] (-) TimerEvent: {}
+[2.512131] (-) TimerEvent: {}
+[2.609602] (bot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.612316] (-) TimerEvent: {}
+[2.712875] (-) TimerEvent: {}
+[2.813371] (-) TimerEvent: {}
+[2.914005] (-) TimerEvent: {}
+[3.014648] (-) TimerEvent: {}
+[3.040179] (bot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.114831] (-) TimerEvent: {}
+[3.215547] (-) TimerEvent: {}
+[3.316077] (-) TimerEvent: {}
+[3.416680] (-) TimerEvent: {}
+[3.517414] (-) TimerEvent: {}
+[3.618162] (-) TimerEvent: {}
+[3.718740] (-) TimerEvent: {}
+[3.819309] (-) TimerEvent: {}
+[3.833069] (bot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.919621] (-) TimerEvent: {}
+[3.924447] (bot_interfaces) StdoutLine: {'line': b'-- Configuring done (3.8s)\n'}
+[4.019830] (-) TimerEvent: {}
+[4.120689] (-) TimerEvent: {}
+[4.165097] (bot_interfaces) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[4.220912] (-) TimerEvent: {}
+[4.222976] (bot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces\n'}
+[4.321138] (-) TimerEvent: {}
+[4.383787] (bot_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.421385] (-) TimerEvent: {}
+[4.425591] (bot_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_bot_interfaces\n'}
+[4.521529] (-) TimerEvent: {}
+[4.622564] (-) TimerEvent: {}
+[4.723369] (-) TimerEvent: {}
+[4.824381] (-) TimerEvent: {}
+[4.925153] (-) TimerEvent: {}
+[5.026049] (-) TimerEvent: {}
+[5.126909] (-) TimerEvent: {}
+[5.227641] (-) TimerEvent: {}
+[5.328354] (-) TimerEvent: {}
+[5.427814] (bot_interfaces) StdoutLine: {'line': b'[  2%] Built target bot_interfaces__rosidl_generator_type_description\n'}
+[5.428696] (-) TimerEvent: {}
+[5.474973] (bot_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.525107] (bot_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.528888] (-) TimerEvent: {}
+[5.608336] (bot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.629093] (-) TimerEvent: {}
+[5.715956] (bot_interfaces) StdoutLine: {'line': b'writing bot_interfaces.egg-info/PKG-INFO\n'}
+[5.717199] (bot_interfaces) StdoutLine: {'line': b'writing dependency_links to bot_interfaces.egg-info/dependency_links.txt\n'}
+[5.718421] (bot_interfaces) StdoutLine: {'line': b'writing top-level names to bot_interfaces.egg-info/top_level.txt\n'}
+[5.729324] (-) TimerEvent: {}
+[5.830113] (-) TimerEvent: {}
+[5.930958] (-) TimerEvent: {}
+[6.031749] (-) TimerEvent: {}
+[6.058445] (bot_interfaces) StdoutLine: {'line': b"reading manifest file 'bot_interfaces.egg-info/SOURCES.txt'\n"}
+[6.062331] (bot_interfaces) StdoutLine: {'line': b"writing manifest file 'bot_interfaces.egg-info/SOURCES.txt'\n"}
+[6.131995] (-) TimerEvent: {}
+[6.180774] (bot_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_bot_interfaces_egg\n'}
+[6.232202] (-) TimerEvent: {}
+[6.332822] (-) TimerEvent: {}
+[6.433462] (-) TimerEvent: {}
+[6.534113] (-) TimerEvent: {}
+[6.634810] (-) TimerEvent: {}
+[6.735610] (-) TimerEvent: {}
+[6.836329] (-) TimerEvent: {}
+[6.937038] (-) TimerEvent: {}
+[7.038647] (-) TimerEvent: {}
+[7.142436] (-) TimerEvent: {}
+[7.190753] (bot_interfaces) StdoutLine: {'line': b'[  6%] Built target bot_interfaces__cpp\n'}
+[7.242626] (-) TimerEvent: {}
+[7.343357] (-) TimerEvent: {}
+[7.356193] (bot_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/msg/detail/hardware_status__description.c.o\x1b[0m\n'}
+[7.357718] (bot_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/msg/detail/hardware_status__functions.c.o\x1b[0m\n'}
+[7.358777] (bot_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/msg/detail/hardware_status__type_support.c.o\x1b[0m\n'}
+[7.359579] (bot_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__description.c.o\x1b[0m\n'}
+[7.360814] (bot_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__type_support.c.o\x1b[0m\n'}
+[7.362612] (bot_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__functions.c.o\x1b[0m\n'}
+[7.443581] (-) TimerEvent: {}
+[7.544565] (-) TimerEvent: {}
+[7.645447] (-) TimerEvent: {}
+[7.746212] (-) TimerEvent: {}
+[7.810578] (bot_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libbot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.846435] (-) TimerEvent: {}
+[7.947209] (-) TimerEvent: {}
+[8.003498] (bot_interfaces) StdoutLine: {'line': b'[ 22%] Built target bot_interfaces__rosidl_generator_c\n'}
+[8.050282] (-) TimerEvent: {}
+[8.069753] (bot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.072020] (bot_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.077830] (bot_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.079645] (bot_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.082531] (bot_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.083639] (bot_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.150968] (-) TimerEvent: {}
+[8.252755] (-) TimerEvent: {}
+[8.354640] (-) TimerEvent: {}
+[8.456168] (-) TimerEvent: {}
+[8.559570] (-) TimerEvent: {}
+[8.660503] (-) TimerEvent: {}
+[8.762310] (-) TimerEvent: {}
+[8.863158] (-) TimerEvent: {}
+[8.964033] (-) TimerEvent: {}
+[9.064986] (-) TimerEvent: {}
+[9.165828] (-) TimerEvent: {}
+[9.266925] (-) TimerEvent: {}
+[9.367831] (-) TimerEvent: {}
+[9.469050] (-) TimerEvent: {}
+[9.569885] (-) TimerEvent: {}
+[9.670783] (-) TimerEvent: {}
+[9.771653] (-) TimerEvent: {}
+[9.876397] (-) TimerEvent: {}
+[9.977310] (-) TimerEvent: {}
+[10.080390] (-) TimerEvent: {}
+[10.188420] (-) TimerEvent: {}
+[10.230368] (bot_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bot_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[10.268638] (bot_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bot_interfaces/srv/reset_counter__type_support.cpp.o\x1b[0m\n'}
+[10.288616] (-) TimerEvent: {}
+[10.323553] (bot_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/bot_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[10.324918] (bot_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/bot_interfaces/srv/reset_counter__type_support.cpp.o\x1b[0m\n'}
+[10.389406] (-) TimerEvent: {}
+[10.497375] (-) TimerEvent: {}
+[10.598223] (-) TimerEvent: {}
+[10.699033] (-) TimerEvent: {}
+[10.800390] (-) TimerEvent: {}
+[10.905441] (-) TimerEvent: {}
+[10.920464] (bot_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/bot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bot_interfaces/msg/detail/hardware_status__type_support.c.o\x1b[0m\n'}
+[10.921989] (bot_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/bot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bot_interfaces/srv/detail/reset_counter__type_support.c.o\x1b[0m\n'}
+[10.923341] (bot_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bot_interfaces/msg/detail/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[10.924899] (bot_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libbot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.006861] (-) TimerEvent: {}
+[11.109421] (-) TimerEvent: {}
+[11.210598] (-) TimerEvent: {}
+[11.314732] (-) TimerEvent: {}
+[11.363393] (bot_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bot_interfaces/srv/detail/reset_counter__type_support.cpp.o\x1b[0m\n'}
+[11.405922] (bot_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libbot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.415381] (-) TimerEvent: {}
+[11.456852] (bot_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bot_interfaces/msg/detail/hardware_status__type_support_c.cpp.o\x1b[0m\n'}
+[11.484512] (bot_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[11.520444] (-) TimerEvent: {}
+[11.555969] (bot_interfaces) StdoutLine: {'line': b'[ 63%] Built target bot_interfaces__rosidl_typesupport_c\n'}
+[11.620772] (-) TimerEvent: {}
+[11.631612] (bot_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/srv/detail/dds_fastrtps/reset_counter__type_support.cpp.o\x1b[0m\n'}
+[11.726152] (-) TimerEvent: {}
+[11.827358] (-) TimerEvent: {}
+[11.910405] (bot_interfaces) StdoutLine: {'line': b'[ 65%] Built target bot_interfaces__rosidl_typesupport_introspection_c\n'}
+[11.931293] (-) TimerEvent: {}
+[12.006611] (bot_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bot_interfaces/srv/detail/reset_counter__type_support_c.cpp.o\x1b[0m\n'}
+[12.031479] (-) TimerEvent: {}
+[12.135086] (-) TimerEvent: {}
+[12.236457] (-) TimerEvent: {}
+[12.339729] (-) TimerEvent: {}
+[12.442978] (-) TimerEvent: {}
+[12.546738] (-) TimerEvent: {}
+[12.648448] (-) TimerEvent: {}
+[12.753576] (-) TimerEvent: {}
+[12.858559] (-) TimerEvent: {}
+[12.959998] (-) TimerEvent: {}
+[13.061195] (-) TimerEvent: {}
+[13.163574] (-) TimerEvent: {}
+[13.266551] (-) TimerEvent: {}
+[13.369549] (-) TimerEvent: {}
+[13.470582] (-) TimerEvent: {}
+[13.575052] (-) TimerEvent: {}
+[13.676430] (-) TimerEvent: {}
+[13.778135] (-) TimerEvent: {}
+[13.779784] (bot_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libbot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.880434] (-) TimerEvent: {}
+[13.982843] (-) TimerEvent: {}
+[14.083911] (-) TimerEvent: {}
+[14.184902] (-) TimerEvent: {}
+[14.285928] (-) TimerEvent: {}
+[14.387387] (-) TimerEvent: {}
+[14.437730] (bot_interfaces) StdoutLine: {'line': b'[ 70%] Built target bot_interfaces__rosidl_typesupport_cpp\n'}
+[14.487614] (-) TimerEvent: {}
+[14.588658] (-) TimerEvent: {}
+[14.689631] (-) TimerEvent: {}
+[14.793428] (-) TimerEvent: {}
+[14.894339] (-) TimerEvent: {}
+[14.977599] (bot_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libbot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[14.994570] (-) TimerEvent: {}
+[15.096504] (-) TimerEvent: {}
+[15.197397] (-) TimerEvent: {}
+[15.298312] (-) TimerEvent: {}
+[15.377071] (bot_interfaces) StdoutLine: {'line': b'[ 72%] Built target bot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[15.398495] (-) TimerEvent: {}
+[15.499424] (-) TimerEvent: {}
+[15.600275] (-) TimerEvent: {}
+[15.641713] (bot_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libbot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.700427] (-) TimerEvent: {}
+[15.801206] (-) TimerEvent: {}
+[15.902045] (-) TimerEvent: {}
+[16.002985] (-) TimerEvent: {}
+[16.074485] (bot_interfaces) StdoutLine: {'line': b'[ 75%] Built target bot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[16.103195] (-) TimerEvent: {}
+[16.204163] (-) TimerEvent: {}
+[16.253583] (bot_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[16.304437] (-) TimerEvent: {}
+[16.405387] (-) TimerEvent: {}
+[16.506084] (-) TimerEvent: {}
+[16.606881] (-) TimerEvent: {}
+[16.629812] (bot_interfaces) StdoutLine: {'line': b'[ 77%] Built target bot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[16.707161] (-) TimerEvent: {}
+[16.739034] (bot_interfaces) StdoutLine: {'line': b'[ 77%] Built target bot_interfaces\n'}
+[16.807467] (-) TimerEvent: {}
+[16.852446] (bot_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[16.907627] (-) TimerEvent: {}
+[17.008527] (-) TimerEvent: {}
+[17.109347] (-) TimerEvent: {}
+[17.210159] (-) TimerEvent: {}
+[17.311711] (-) TimerEvent: {}
+[17.412379] (-) TimerEvent: {}
+[17.513191] (-) TimerEvent: {}
+[17.613903] (-) TimerEvent: {}
+[17.714619] (-) TimerEvent: {}
+[17.815314] (-) TimerEvent: {}
+[17.915995] (-) TimerEvent: {}
+[18.016834] (-) TimerEvent: {}
+[18.117577] (-) TimerEvent: {}
+[18.218281] (-) TimerEvent: {}
+[18.318948] (-) TimerEvent: {}
+[18.419606] (-) TimerEvent: {}
+[18.520285] (-) TimerEvent: {}
+[18.620961] (-) TimerEvent: {}
+[18.721641] (-) TimerEvent: {}
+[18.822401] (-) TimerEvent: {}
+[18.924465] (-) TimerEvent: {}
+[18.978489] (bot_interfaces) StdoutLine: {'line': b'[ 79%] Built target bot_interfaces__py\n'}
+[19.024636] (-) TimerEvent: {}
+[19.101051] (bot_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/bot_interfaces/msg/_hardware_status_s.c.o\x1b[0m\n'}
+[19.102059] (bot_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/bot_interfaces/srv/_reset_counter_s.c.o\x1b[0m\n'}
+[19.124856] (-) TimerEvent: {}
+[19.225561] (-) TimerEvent: {}
+[19.326390] (-) TimerEvent: {}
+[19.427091] (-) TimerEvent: {}
+[19.528002] (-) TimerEvent: {}
+[19.628765] (-) TimerEvent: {}
+[19.729523] (-) TimerEvent: {}
+[19.830411] (-) TimerEvent: {}
+[19.845557] (bot_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libbot_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[19.930646] (-) TimerEvent: {}
+[20.031553] (-) TimerEvent: {}
+[20.056704] (bot_interfaces) StdoutLine: {'line': b'[ 86%] Built target bot_interfaces__rosidl_generator_py\n'}
+[20.131772] (-) TimerEvent: {}
+[20.185945] (bot_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/bot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[20.190630] (bot_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/bot_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[20.191691] (bot_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/bot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[20.232065] (-) TimerEvent: {}
+[20.332966] (-) TimerEvent: {}
+[20.434023] (-) TimerEvent: {}
+[20.534856] (-) TimerEvent: {}
+[20.635529] (-) TimerEvent: {}
+[20.736473] (-) TimerEvent: {}
+[20.759533] (bot_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/bot_interfaces/bot_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[20.792672] (bot_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/bot_interfaces/bot_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[20.798934] (bot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/bot_interfaces/bot_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[20.836711] (-) TimerEvent: {}
+[20.924917] (bot_interfaces) StdoutLine: {'line': b'[100%] Built target bot_interfaces_s__rosidl_typesupport_c\n'}
+[20.936909] (-) TimerEvent: {}
+[20.965619] (bot_interfaces) StdoutLine: {'line': b'[100%] Built target bot_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[20.980636] (bot_interfaces) StdoutLine: {'line': b'[100%] Built target bot_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[21.037131] (-) TimerEvent: {}
+[21.046102] (bot_interfaces) CommandEnded: {'returncode': 0}
+[21.049990] (bot_interfaces) JobProgress: {'identifier': 'bot_interfaces', 'progress': 'install'}
+[21.100354] (bot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces'], 'cwd': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces', 'env': OrderedDict({'USER': 'lalit', 'STARSHIP_SHELL': 'zsh', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'BUN_INSTALL': '/home/lalit/.bun', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/lalit', 'OLDPWD': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src', 'TERMINFO': '/usr/lib/kitty/terminfo', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/lalit/.config/autostart/kitty.desktop', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '2682', 'KITTY_PID': '3132', 'FNM_ARCH': 'x64', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'SYSTEMD_EXEC_PID': '2873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3132', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'FNM_VERSION_FILE_STRATEGY': 'local', 'FNM_LOGLEVEL': 'info', 'ROS_DISTRO': 'kilted', 'COLCON_PREFIX_PATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install', 'LOGNAME': 'lalit', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '9:23745', 'DESKTOP_AUTOSTART_ID': '10907c8ee258e54cc174859644977131600000028730018', 'FNM_NODE_DIST_MIRROR': 'https://nodejs.org/dist', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'lalit', 'TERM': 'xterm-kitty', 'KITTY_PUBLIC_KEY': '1:rB1>0U33qD*$dm=<4}dJCW3IQlcPprBrN+mn!B42', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/home/lalit/.bun/bin:/run/user/1000/fnm_multishells/6722_1748596853312/bin:/home/lalit/.local/share/fnm:/home/lalit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lalit/.fzf/bin', 'INVOCATION_ID': 'd2fa0050af284aec875ba8b500ecf9fa', 'SESSION_MANAGER': 'local/lalit-thinkpad:@/tmp/.ICE-unix/2873,unix/lalit-thinkpad:/tmp/.ICE-unix/2873', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.XQ4Z62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'FNM_DIR': '/home/lalit/.local/share/fnm', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'FNM_RESOLVE_ENGINES': 'true', 'AMENT_PREFIX_PATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted', 'ROS_DOMAIN_ID': '230', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '3', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/kilted/share', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces', 'FNM_MULTISHELL_PATH': '/run/user/1000/fnm_multishells/6722_1748596853312', 'XDG_DATA_DIRS': '/home/lalit/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'STARSHIP_SESSION_KEY': '7007184826019218', 'PYTHONPATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'FNM_COREPACK_ENABLED': 'false', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted'}), 'shell': False}
+[21.137411] (-) TimerEvent: {}
+[21.147953] (bot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.151963] (bot_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[21.153077] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/ament_index/resource_index/rosidl_interfaces/bot_interfaces\n'}
+[21.154236] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/msg/HardwareStatus.json\n'}
+[21.157493] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/srv/ResetCounter.json\n'}
+[21.206821] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__functions.h\n'}
+[21.208539] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__struct.h\n'}
+[21.210786] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[21.211747] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/hardware_status.h\n'}
+[21.212651] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[21.213562] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__functions.h\n'}
+[21.237612] (-) TimerEvent: {}
+[21.259886] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__struct.h\n'}
+[21.307767] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__type_support.h\n'}
+[21.338532] (-) TimerEvent: {}
+[21.356919] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/reset_counter.h\n'}
+[21.407801] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/environment/library_path.sh\n'}
+[21.409788] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/environment/library_path.dsv\n'}
+[21.412145] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[21.413227] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[21.414073] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__rosidl_typesupport_fastrtps_c.h\n'}
+[21.438746] (-) TimerEvent: {}
+[21.467844] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[21.469021] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[21.470044] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__rosidl_typesupport_introspection_c.h\n'}
+[21.521537] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[21.522586] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[21.523320] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[21.524032] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__type_support.hpp\n'}
+[21.524831] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/hardware_status.hpp\n'}
+[21.525532] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[21.526504] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__builder.hpp\n'}
+[21.538947] (-) TimerEvent: {}
+[21.572468] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__struct.hpp\n'}
+[21.618204] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__traits.hpp\n'}
+[21.639185] (-) TimerEvent: {}
+[21.665949] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__type_support.hpp\n'}
+[21.711087] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/reset_counter.hpp\n'}
+[21.739443] (-) TimerEvent: {}
+[21.763054] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.764406] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[21.765752] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.812109] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.813584] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.839608] (-) TimerEvent: {}
+[21.868042] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/environment/pythonpath.sh\n'}
+[21.869837] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/environment/pythonpath.dsv\n'}
+[21.872218] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[21.873399] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[21.874556] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[21.875832] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[21.880096] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/__init__.py\n'}
+[21.881307] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[21.882475] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[21.883740] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[21.884838] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/bot_interfaces_s__rosidl_typesupport_c.so\n'}
+[21.886084] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/bot_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[21.887312] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/bot_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[21.888619] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/msg/__init__.py\n'}
+[21.889746] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/msg/_hardware_status.py\n'}
+[21.891026] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/msg/_hardware_status_s.c\n'}
+[21.892294] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/srv/__init__.py\n'}
+[21.939867] (-) TimerEvent: {}
+[21.940878] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/srv/_reset_counter.py\n'}
+[21.986672] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/srv/_reset_counter_s.c\n'}
+[22.036423] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/bot_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[22.038443] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/bot_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[22.040078] (-) TimerEvent: {}
+[22.040958] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/bot_interfaces_s__rosidl_typesupport_c.so\n'}
+[22.042441] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/msg/HardwareStatus.idl\n'}
+[22.043727] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/srv/ResetCounter.idl\n'}
+[22.099505] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/msg/HardwareStatus.msg\n'}
+[22.100415] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/srv/ResetCounter.srv\n'}
+[22.140358] (-) TimerEvent: {}
+[22.159142] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/ament_index/resource_index/package_run_dependencies/bot_interfaces\n'}
+[22.161059] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/ament_index/resource_index/parent_prefix_path/bot_interfaces\n'}
+[22.163356] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/environment/ament_prefix_path.sh\n'}
+[22.164660] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/environment/ament_prefix_path.dsv\n'}
+[22.166614] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/environment/path.sh\n'}
+[22.168330] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/environment/path.dsv\n'}
+[22.169770] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/local_setup.bash\n'}
+[22.171040] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/local_setup.sh\n'}
+[22.172305] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/local_setup.zsh\n'}
+[22.173527] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/local_setup.dsv\n'}
+[22.174982] (bot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/package.dsv\n'}
+[22.230631] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/ament_index/resource_index/packages/bot_interfaces\n'}
+[22.232792] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[22.234654] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.236485] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.238324] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.239722] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[22.240620] (-) TimerEvent: {}
+[22.241349] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[22.243179] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[22.244926] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfacesConfig.cmake\n'}
+[22.246271] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfacesConfig-version.cmake\n'}
+[22.247693] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/package.xml\n'}
+[22.249426] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_generator_c.so\n'}
+[22.252642] (bot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_generator_c.so" to ""\n'}
+[22.253811] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[22.256963] (bot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[22.258418] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[22.261708] (bot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[22.266734] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_c.so\n'}
+[22.267996] (bot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[22.268918] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[22.274679] (bot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[22.275700] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[22.277442] (bot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[22.278932] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_cpp.so\n'}
+[22.282535] (bot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[22.340817] (-) TimerEvent: {}
+[22.441753] (-) TimerEvent: {}
+[22.532216] (bot_interfaces) StdoutLine: {'line': b"Listing '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces'...\n"}
+[22.533399] (bot_interfaces) StdoutLine: {'line': b"Compiling '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/__init__.py'...\n"}
+[22.534273] (bot_interfaces) StdoutLine: {'line': b"Listing '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/msg'...\n"}
+[22.535051] (bot_interfaces) StdoutLine: {'line': b"Compiling '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/msg/__init__.py'...\n"}
+[22.535893] (bot_interfaces) StdoutLine: {'line': b"Compiling '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/msg/_hardware_status.py'...\n"}
+[22.536681] (bot_interfaces) StdoutLine: {'line': b"Listing '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/srv'...\n"}
+[22.537458] (bot_interfaces) StdoutLine: {'line': b"Compiling '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/srv/__init__.py'...\n"}
+[22.538183] (bot_interfaces) StdoutLine: {'line': b"Compiling '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/srv/_reset_counter.py'...\n"}
+[22.541939] (-) TimerEvent: {}
+[22.567464] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_generator_py.so\n'}
+[22.570434] (bot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_generator_py.so" to ""\n'}
+[22.571331] (bot_interfaces) StdoutLine: {'line': b'-- Old export file "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_generator_cExport-noconfig.cmake].\n'}
+[22.572093] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_generator_cExport.cmake\n'}
+[22.573352] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[22.575052] (bot_interfaces) StdoutLine: {'line': b'-- Old export file "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].\n'}
+[22.576471] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[22.577724] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[22.578806] (bot_interfaces) StdoutLine: {'line': b'-- Old export file "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[22.580005] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[22.581070] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[22.582198] (bot_interfaces) StdoutLine: {'line': b'-- Old export file "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[22.583028] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[22.584099] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[22.585190] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[22.586298] (bot_interfaces) StdoutLine: {'line': b'-- Old export file "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].\n'}
+[22.587711] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[22.588878] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[22.589937] (bot_interfaces) StdoutLine: {'line': b'-- Old export file "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[22.591216] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[22.592402] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[22.593491] (bot_interfaces) StdoutLine: {'line': b'-- Old export file "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[22.594687] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[22.595877] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[22.596946] (bot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[22.598077] (bot_interfaces) StdoutLine: {'line': b'-- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[22.607708] (bot_interfaces) CommandEnded: {'returncode': 0}
+[22.642355] (-) TimerEvent: {}
+[22.719220] (bot_interfaces) JobEnded: {'identifier': 'bot_interfaces', 'rc': 0}
+[22.722937] (-) EventReactorShutdown: {}

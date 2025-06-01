@@ -1,0 +1,22 @@
+[0.039s] Invoking command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted /usr/bin/cmake /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces
+[0.677s] -- The C compiler identification is GNU 13.3.0
+[1.118s] -- The CXX compiler identification is GNU 13.3.0
+[1.196s] -- Detecting C compiler ABI info
+[1.588s] -- Detecting C compiler ABI info - done
+[1.632s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.633s] -- Detecting C compile features
+[1.635s] -- Detecting C compile features - done
+[1.677s] -- Detecting CXX compiler ABI info
+[2.087s] -- Detecting CXX compiler ABI info - done
+[2.137s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.138s] -- Detecting CXX compile features
+[2.140s] -- Detecting CXX compile features - done
+[2.172s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[2.768s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.046s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.344s] [31mCMake Error at CMakeLists.txt:14 (rosidl_generate_interfaces):
+[3.345s]   Unknown CMake command "rosidl_generate_interfaces".
+[3.346s] 
+[3.346s] [0m
+[3.347s] -- Configuring incomplete, errors occurred!
+[3.370s] Invoked command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted /usr/bin/cmake /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces

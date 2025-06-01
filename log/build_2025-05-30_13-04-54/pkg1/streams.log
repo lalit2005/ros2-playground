@@ -1,0 +1,17 @@
+[1.449s] Invoking command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1': PYTHONPATH=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/build --no-deps symlink_data
+[2.105s] running develop
+[2.466s] running egg_info
+[2.500s] writing pkg1.egg-info/PKG-INFO
+[2.500s] writing dependency_links to pkg1.egg-info/dependency_links.txt
+[2.500s] writing entry points to pkg1.egg-info/entry_points.txt
+[2.501s] writing requirements to pkg1.egg-info/requires.txt
+[2.501s] writing top-level names to pkg1.egg-info/top_level.txt
+[2.574s] reading manifest file 'pkg1.egg-info/SOURCES.txt'
+[2.575s] writing manifest file 'pkg1.egg-info/SOURCES.txt'
+[2.611s] running build_ext
+[2.612s] Creating /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages/pkg1.egg-link (link to .)
+[2.613s] Installing test_node script to /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/pkg1
+[2.613s] 
+[2.614s] Installed /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1
+[2.614s] running symlink_data
+[2.665s] Invoked command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1' returned '0': PYTHONPATH=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/build --no-deps symlink_data

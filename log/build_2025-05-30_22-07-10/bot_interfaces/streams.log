@@ -1,0 +1,179 @@
+[0.042s] Invoking command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted /usr/bin/cmake /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces -DCMAKE_INSTALL_PREFIX=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces
+[0.078s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.079s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.079s]   contain a literal, direct call to the project() command.  Add a line of
+[0.079s]   code such as
+[0.079s] 
+[0.080s]     project(ProjectName)
+[0.080s] 
+[0.080s]   near the top of the file, but after cmake_minimum_required().
+[0.081s] 
+[0.081s]   CMake is pretending there is a "project(Project)" command on the first
+[0.081s]   line.
+[0.082s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.082s] [0m
+[0.082s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.082s]   cmake_minimum_required() should be called prior to this top-level project()
+[0.083s]   call.  Please see the cmake-commands(7) manual for usage documentation of
+[0.083s]   both commands.
+[0.083s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.084s] [0m
+[0.125s] -- Found geometry_msgs: 5.5.0 (/opt/ros/kilted/share/geometry_msgs/cmake)
+[1.022s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.070s] [33mCMake Warning (dev) at /opt/ros/kilted/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):
+[1.070s]   Policy CMP0130 is not set: while() diagnoses condition evaluation errors.
+[1.070s]   Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy
+[1.071s]   command to set the policy and suppress this warning.
+[1.071s] 
+[1.072s]   while() given incorrect arguments:
+[1.072s] 
+[1.072s]     "TRUE"
+[1.073s] 
+[1.073s]   An argument named "TRUE" appears in a conditional statement.  Policy
+[1.074s]   CMP0012 is not set: if() recognizes numbers and boolean constants.  Run
+[1.074s]   "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy
+[1.074s]   command to set the policy and suppress this warning.
+[1.075s] Call Stack (most recent call first):
+[1.075s]   /opt/ros/kilted/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)
+[1.076s]   /opt/ros/kilted/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)
+[1.076s]   /opt/ros/kilted/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[1.076s]   /opt/ros/kilted/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.077s]   /opt/ros/kilted/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)
+[1.077s]   /opt/ros/kilted/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.078s]   /opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)
+[1.078s]   CMakeLists.txt:1 (find_package)
+[1.078s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.079s] [0m
+[1.079s] [33mCMake Warning (dev) at /opt/ros/kilted/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):
+[1.079s]   Policy CMP0130 is not set: while() diagnoses condition evaluation errors.
+[1.080s]   Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy
+[1.080s]   command to set the policy and suppress this warning.
+[1.081s] 
+[1.081s]   while() given incorrect arguments:
+[1.081s] 
+[1.082s]     "TRUE"
+[1.082s] 
+[1.082s]   An argument named "TRUE" appears in a conditional statement.  Policy
+[1.083s]   CMP0012 is not set: if() recognizes numbers and boolean constants.  Run
+[1.083s]   "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy
+[1.084s]   command to set the policy and suppress this warning.
+[1.084s] Call Stack (most recent call first):
+[1.084s]   /opt/ros/kilted/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)
+[1.085s]   /opt/ros/kilted/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)
+[1.085s]   /opt/ros/kilted/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[1.085s]   /opt/ros/kilted/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.086s]   /opt/ros/kilted/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)
+[1.086s]   /opt/ros/kilted/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.087s]   /opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)
+[1.088s]   CMakeLists.txt:1 (find_package)
+[1.088s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.089s] [0m
+[1.119s] [33mCMake Warning (dev) at /opt/ros/kilted/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):
+[1.120s]   Policy CMP0130 is not set: while() diagnoses condition evaluation errors.
+[1.120s]   Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy
+[1.121s]   command to set the policy and suppress this warning.
+[1.122s] 
+[1.122s]   while() given incorrect arguments:
+[1.122s] 
+[1.123s]     "TRUE"
+[1.123s] 
+[1.124s]   An argument named "TRUE" appears in a conditional statement.  Policy
+[1.124s]   CMP0012 is not set: if() recognizes numbers and boolean constants.  Run
+[1.124s]   "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy
+[1.125s]   command to set the policy and suppress this warning.
+[1.125s] Call Stack (most recent call first):
+[1.125s]   /opt/ros/kilted/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)
+[1.126s]   /opt/ros/kilted/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)
+[1.126s]   /opt/ros/kilted/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[1.127s]   /opt/ros/kilted/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.127s]   /opt/ros/kilted/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[1.127s]   /opt/ros/kilted/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.128s]   /opt/ros/kilted/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[1.128s]   /opt/ros/kilted/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.129s]   /opt/ros/kilted/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)
+[1.129s]   /opt/ros/kilted/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.129s]   /opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)
+[1.130s]   CMakeLists.txt:1 (find_package)
+[1.130s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.131s] [0m
+[1.131s] [33mCMake Warning (dev) at /opt/ros/kilted/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):
+[1.131s]   Policy CMP0130 is not set: while() diagnoses condition evaluation errors.
+[1.132s]   Run "cmake --help-policy CMP0130" for policy details.  Use the cmake_policy
+[1.132s]   command to set the policy and suppress this warning.
+[1.133s] 
+[1.133s]   while() given incorrect arguments:
+[1.133s] 
+[1.134s]     "TRUE"
+[1.134s] 
+[1.134s]   An argument named "TRUE" appears in a conditional statement.  Policy
+[1.135s]   CMP0012 is not set: if() recognizes numbers and boolean constants.  Run
+[1.135s]   "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy
+[1.136s]   command to set the policy and suppress this warning.
+[1.136s] Call Stack (most recent call first):
+[1.136s]   /opt/ros/kilted/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)
+[1.137s]   /opt/ros/kilted/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)
+[1.137s]   /opt/ros/kilted/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[1.138s]   /opt/ros/kilted/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.138s]   /opt/ros/kilted/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[1.138s]   /opt/ros/kilted/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.139s]   /opt/ros/kilted/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[1.139s]   /opt/ros/kilted/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.140s]   /opt/ros/kilted/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)
+[1.140s]   /opt/ros/kilted/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.140s]   /opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)
+[1.141s]   CMakeLists.txt:1 (find_package)
+[1.141s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.142s] [0m
+[1.199s] [33mCMake Warning (dev) at /opt/ros/kilted/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[1.200s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[1.201s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[1.202s]   set the policy and suppress this warning.
+[1.202s] 
+[1.202s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[1.203s]   Since the policy is not set the OLD behavior will be used.
+[1.203s] Call Stack (most recent call first):
+[1.203s]   /opt/ros/kilted/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)
+[1.204s]   /opt/ros/kilted/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[1.205s]   /opt/ros/kilted/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.205s]   /opt/ros/kilted/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[1.205s]   /opt/ros/kilted/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.206s]   /opt/ros/kilted/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[1.206s]   /opt/ros/kilted/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.206s]   /opt/ros/kilted/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)
+[1.207s]   /opt/ros/kilted/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.207s]   /opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)
+[1.207s]   CMakeLists.txt:1 (find_package)
+[1.208s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.208s] [0m
+[1.209s] [31mCMake Error at /opt/ros/kilted/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[1.210s]   if given arguments:
+[1.210s] 
+[1.211s]     "NOT" "element" "IN_LIST" "rcutils_RECURSIVE_DEPENDENCIES"
+[1.211s] 
+[1.213s]   Unknown arguments specified
+[1.214s] Call Stack (most recent call first):
+[1.215s]   /opt/ros/kilted/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)
+[1.215s]   /opt/ros/kilted/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[1.216s]   /opt/ros/kilted/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.217s]   /opt/ros/kilted/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[1.218s]   /opt/ros/kilted/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.218s]   /opt/ros/kilted/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[1.219s]   /opt/ros/kilted/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.220s]   /opt/ros/kilted/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)
+[1.220s]   /opt/ros/kilted/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.221s]   /opt/ros/kilted/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)
+[1.222s]   CMakeLists.txt:1 (find_package)
+[1.223s] 
+[1.225s] [0m
+[1.227s] [31mCMake Error in CMakeLists.txt:
+[1.228s]   No cmake_minimum_required command is present.  A line of code such as
+[1.229s] 
+[1.230s]     cmake_minimum_required(VERSION 3.28)
+[1.231s] 
+[1.231s]   should be added at the top of the file.  The version specified may be lower
+[1.233s]   if you wish to support older CMake versions for this project.  For more
+[1.234s]   information run "cmake --help-policy CMP0000".
+[1.234s] 
+[1.235s] [0m
+[1.236s] -- Configuring incomplete, errors occurred!
+[1.237s] Invoked command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted /usr/bin/cmake /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces -DCMAKE_INSTALL_PREFIX=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces

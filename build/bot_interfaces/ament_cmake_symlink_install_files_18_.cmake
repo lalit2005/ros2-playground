@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces" FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/bot_interfaces")

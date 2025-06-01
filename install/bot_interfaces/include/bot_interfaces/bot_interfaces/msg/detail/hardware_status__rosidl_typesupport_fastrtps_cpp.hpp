@@ -1,0 +1,1 @@
+/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces" FILES "/opt/ros/kilted/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/bot_interfaces/environment")
