@@ -23,7 +23,9 @@ setup(
             "test_node = pkg1.mynode:main",
             "numpub = pkg1.numpub:main",
             "numsub = pkg1.numsub:main",
-            "client = pkg1.client:main"
+            "client = pkg1.client:main",
+            "actionclient = pkg1.actionclient:main",
+            "actionserver = pkg1.actionserver:main",
         ],
     },
 )

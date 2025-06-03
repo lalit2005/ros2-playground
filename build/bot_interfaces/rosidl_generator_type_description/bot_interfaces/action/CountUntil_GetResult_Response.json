@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "bot_interfaces/action/CountUntil_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "bot_interfaces/action/CountUntil_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "bot_interfaces/action/CountUntil_Result",
+        "fields": [
+          {
+            "name": "reached_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "bot_interfaces/action/CountUntil_GetResult_Response",
+      "hash_string": "RIHS01_35f490ba3a99eb80c15051cb22d3216e23b4feac338ec598ae26b5248b618412"
+    },
+    {
+      "type_name": "bot_interfaces/action/CountUntil_Result",
+      "hash_string": "RIHS01_4073b19fadc6070eee097828735c1bd52096cb1b7951358fba2decd34b69b553"
+    }
+  ]
+}

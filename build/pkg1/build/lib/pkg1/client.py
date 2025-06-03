@@ -18,14 +18,14 @@ class MyNode2(Node):
         future.add_done_callback(self.callback_reset_counter_response)
 
     def  callback_reset_counter_response(self, future):
-        response = future.result
+        response = future.result()
         self.get_logger().info("success flag: " + str(response.success))
         self.get_logger().info("message: " + str(response.message))
 
 def main(args=None):
     rclpy.init(args=args)
     node = MyNode2()
-    node.call_reset_counter(20)
+    node.call_reset_counter(0)
     rclpy.spin(node)
     rclpy.shutdown()
 

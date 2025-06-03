@@ -1,0 +1,252 @@
+[0.018s] Invoking command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted /usr/bin/cmake /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces -DCMAKE_INSTALL_PREFIX=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces
+[0.045s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.234s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.253s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+[0.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.332s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.381s] -- Found rosidl_adapter: 4.9.4 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[1.031s] -- Found ament_cmake_ros_core: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)
+[1.360s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.604s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.128s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.177s] -- Configuring done (2.1s)
+[2.274s] -- Generating done (0.1s)
+[2.297s] -- Build files have been written to: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces
+[2.308s] Invoked command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted /usr/bin/cmake /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces -DCMAKE_INSTALL_PREFIX=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces
+[2.310s] Invoking command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted /usr/bin/cmake --build /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces -- -j8 -l8
+[2.413s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.432s] [  1%] Built target ament_cmake_python_symlink_bot_interfaces
+[2.815s] running egg_info
+[2.823s] [  1%] Built target bot_interfaces__rosidl_generator_type_description
+[2.842s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.854s] writing bot_interfaces.egg-info/PKG-INFO
+[2.854s] writing dependency_links to bot_interfaces.egg-info/dependency_links.txt
+[2.854s] writing top-level names to bot_interfaces.egg-info/top_level.txt
+[2.862s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.959s] reading manifest file 'bot_interfaces.egg-info/SOURCES.txt'
+[2.960s] writing manifest file 'bot_interfaces.egg-info/SOURCES.txt'
+[3.014s] [  5%] Built target ament_cmake_python_build_bot_interfaces_egg
+[3.820s] [  5%] Built target bot_interfaces__cpp
+[3.966s] [  7%] [32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__type_support.c.o[0m
+[3.969s] [ 11%] [32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/msg/detail/hardware_status__functions.c.o[0m
+[3.969s] [ 11%] [32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/msg/detail/hardware_status__description.c.o[0m
+[3.970s] [ 12%] [32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[3.972s] [ 14%] [32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c.o[0m
+[3.974s] [ 16%] [32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__functions.c.o[0m
+[3.984s] [ 18%] [32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__description.c.o[0m
+[3.985s] [ 20%] [32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c.o[0m
+[4.071s] [ 22%] [32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c.o[0m
+[4.328s] [ 24%] [32m[1mLinking C shared library libbot_interfaces__rosidl_generator_c.so[0m
+[4.477s] [ 24%] Built target bot_interfaces__rosidl_generator_c
+[4.543s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.548s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.549s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.552s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.554s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.558s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.447s] [ 37%] [32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bot_interfaces/action/count_until__type_support.cpp.o[0m
+[5.448s] [ 38%] [32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[5.452s] [ 40%] [32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bot_interfaces/srv/reset_counter__type_support.cpp.o[0m
+[5.785s] [ 42%] [32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/bot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[5.957s] [ 44%] [32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bot_interfaces/msg/detail/hardware_status__type_support.cpp.o[0m
+[6.002s] [ 46%] [32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/bot_interfaces/srv/reset_counter__type_support.cpp.o[0m
+[6.225s] [ 48%] [32mBuilding C object CMakeFiles/bot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bot_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[6.300s] [ 50%] [32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/bot_interfaces/action/count_until__type_support.cpp.o[0m
+[6.369s] [ 51%] [32mBuilding C object CMakeFiles/bot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bot_interfaces/srv/detail/reset_counter__type_support.c.o[0m
+[6.397s] [ 53%] [32mBuilding C object CMakeFiles/bot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bot_interfaces/action/detail/count_until__type_support.c.o[0m
+[6.579s] [ 55%] [32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bot_interfaces/srv/detail/reset_counter__type_support.cpp.o[0m
+[6.624s] [ 57%] [32m[1mLinking CXX shared library libbot_interfaces__rosidl_typesupport_c.so[0m
+[6.699s] [ 59%] [32m[1mLinking C shared library libbot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.824s] [ 59%] Built target bot_interfaces__rosidl_typesupport_c
+[6.834s] [ 59%] Built target bot_interfaces__rosidl_typesupport_introspection_c
+[6.849s] [ 61%] [32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bot_interfaces/action/detail/count_until__type_support.cpp.o[0m
+[7.028s] [ 62%] [32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o[0m
+[7.051s] [ 64%] [32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o[0m
+[7.065s] [ 66%] [32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/srv/detail/dds_fastrtps/reset_counter__type_support.cpp.o[0m
+[7.150s] [ 68%] [32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bot_interfaces/msg/detail/hardware_status__type_support_c.cpp.o[0m
+[7.156s] [ 70%] [32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bot_interfaces/srv/detail/reset_counter__type_support_c.cpp.o[0m
+[7.676s] [ 72%] [32m[1mLinking CXX shared library libbot_interfaces__rosidl_typesupport_cpp.so[0m
+[8.004s] [ 74%] [32mBuilding CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bot_interfaces/action/detail/count_until__type_support_c.cpp.o[0m
+[8.063s] [ 74%] Built target bot_interfaces__rosidl_typesupport_cpp
+[8.992s] [ 75%] [32m[1mLinking CXX shared library libbot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[9.167s] [ 75%] Built target bot_interfaces__rosidl_typesupport_introspection_cpp
+[9.341s] [ 77%] [32m[1mLinking CXX shared library libbot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.478s] [ 77%] Built target bot_interfaces__rosidl_typesupport_fastrtps_c
+[9.513s] [ 79%] [32m[1mLinking CXX shared library libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.663s] [ 79%] Built target bot_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.709s] [ 79%] Built target bot_interfaces
+[9.790s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.384s] [ 81%] Built target bot_interfaces__py
+[11.431s] [ 87%] [32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/bot_interfaces/msg/_hardware_status_s.c.o[0m
+[11.431s] [ 87%] [32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/bot_interfaces/srv/_reset_counter_s.c.o[0m
+[11.431s] [ 87%] [32mBuilding C object CMakeFiles/bot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/bot_interfaces/action/_count_until_s.c.o[0m
+[11.799s] [ 88%] [32m[1mLinking C shared library libbot_interfaces__rosidl_generator_py.so[0m
+[11.922s] [ 88%] Built target bot_interfaces__rosidl_generator_py
+[12.034s] [ 92%] [32mBuilding C object CMakeFiles/bot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.034s] [ 92%] [32mBuilding C object CMakeFiles/bot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.036s] [ 94%] [32mBuilding C object CMakeFiles/bot_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[12.445s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/bot_interfaces/bot_interfaces_s__rosidl_typesupport_c.so[0m
+[12.462s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/bot_interfaces/bot_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[12.463s] [100%] [32m[1mLinking C shared module rosidl_generator_py/bot_interfaces/bot_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[12.505s] [100%] Built target bot_interfaces_s__rosidl_typesupport_c
+[12.522s] [100%] Built target bot_interfaces_s__rosidl_typesupport_introspection_c
+[12.529s] [100%] Built target bot_interfaces_s__rosidl_typesupport_fastrtps_c
+[12.551s] Invoked command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted /usr/bin/cmake --build /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces -- -j8 -l8
+[12.570s] Invoking command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted /usr/bin/cmake --install /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces
+[12.593s] -- Install configuration: ""
+[12.595s] -- Execute custom install script
+[12.596s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/ament_index/resource_index/rosidl_interfaces/bot_interfaces
+[12.597s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/msg/HardwareStatus.json
+[12.598s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/srv/ResetCounter.json
+[12.599s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/action/CountUntil.json
+[12.647s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/action/count_until.h
+[12.696s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/action/detail/count_until__functions.h
+[12.743s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/action/detail/count_until__struct.h
+[12.791s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/action/detail/count_until__type_support.h
+[12.837s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__functions.h
+[12.838s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__struct.h
+[12.839s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__type_support.h
+[12.840s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/hardware_status.h
+[12.841s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.842s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__functions.h
+[12.843s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__struct.h
+[12.843s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__type_support.h
+[12.844s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/reset_counter.h
+[12.846s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/environment/library_path.sh
+[12.847s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/environment/library_path.dsv
+[12.850s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_c.h
+[12.895s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[12.896s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.897s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__rosidl_typesupport_fastrtps_c.h
+[12.899s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/action/detail/count_until__rosidl_typesupport_introspection_c.h
+[12.941s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[12.942s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.943s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__rosidl_typesupport_introspection_c.h
+[12.946s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/action/count_until.hpp
+[12.989s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/action/detail/count_until__builder.hpp
+[13.036s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/action/detail/count_until__struct.hpp
+[13.095s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/action/detail/count_until__traits.hpp
+[13.146s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/action/detail/count_until__type_support.hpp
+[13.195s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__builder.hpp
+[13.196s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__struct.hpp
+[13.198s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__traits.hpp
+[13.199s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__type_support.hpp
+[13.200s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/hardware_status.hpp
+[13.201s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[13.202s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__builder.hpp
+[13.203s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__struct.hpp
+[13.204s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__traits.hpp
+[13.205s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__type_support.hpp
+[13.206s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/reset_counter.hpp
+[13.210s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_cpp.hpp
+[13.256s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[13.257s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.257s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__rosidl_typesupport_fastrtps_cpp.hpp
+[13.259s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/action/detail/count_until__rosidl_typesupport_introspection_cpp.hpp
+[13.307s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[13.309s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/include/bot_interfaces/bot_interfaces/srv/detail/reset_counter__rosidl_typesupport_introspection_cpp.hpp
+[13.311s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/environment/pythonpath.sh
+[13.313s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/environment/pythonpath.dsv
+[13.315s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[13.317s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[13.318s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[13.319s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[13.325s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/__init__.py
+[13.326s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_c.c
+[13.328s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.328s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[13.329s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/action/__init__.py
+[13.382s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/action/_count_until.py
+[13.437s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/action/_count_until_s.c
+[13.481s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/bot_interfaces_s__rosidl_typesupport_c.so
+[13.482s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/bot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[13.483s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/bot_interfaces_s__rosidl_typesupport_introspection_c.so
+[13.484s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/msg/__init__.py
+[13.485s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/msg/_hardware_status.py
+[13.486s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/msg/_hardware_status_s.c
+[13.487s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/srv/__init__.py
+[13.488s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/srv/_reset_counter.py
+[13.490s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/srv/_reset_counter_s.c
+[13.492s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/bot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[13.494s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/bot_interfaces_s__rosidl_typesupport_introspection_c.so
+[13.496s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/bot_interfaces_s__rosidl_typesupport_c.so
+[13.497s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/msg/HardwareStatus.idl
+[13.499s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/srv/ResetCounter.idl
+[13.500s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/action/CountUntil.idl
+[13.546s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/msg/HardwareStatus.msg
+[13.548s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/srv/ResetCounter.srv
+[13.549s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/action/CountUntil.action
+[13.598s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/ament_index/resource_index/package_run_dependencies/bot_interfaces
+[13.600s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/ament_index/resource_index/parent_prefix_path/bot_interfaces
+[13.601s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/environment/ament_prefix_path.sh
+[13.603s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/environment/ament_prefix_path.dsv
+[13.604s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/environment/path.sh
+[13.606s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/environment/path.dsv
+[13.607s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/local_setup.bash
+[13.609s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/local_setup.sh
+[13.610s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/local_setup.zsh
+[13.611s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/local_setup.dsv
+[13.612s] -- Symlinking: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/package.dsv
+[13.660s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/ament_index/resource_index/packages/bot_interfaces
+[13.661s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/rosidl_cmake-extras.cmake
+[13.663s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.664s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.666s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[13.667s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[13.669s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.670s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.672s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfacesConfig.cmake
+[13.673s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfacesConfig-version.cmake
+[13.675s] -- Up-to-date symlink: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/package.xml
+[13.676s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_generator_c.so
+[13.679s] -- Set non-toolchain portion of runtime path of "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_generator_c.so" to ""
+[13.681s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_fastrtps_c.so
+[13.683s] -- Set non-toolchain portion of runtime path of "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[13.685s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_introspection_c.so
+[13.687s] -- Set non-toolchain portion of runtime path of "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[13.688s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_c.so
+[13.692s] -- Set non-toolchain portion of runtime path of "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_c.so" to ""
+[13.693s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[13.697s] -- Set non-toolchain portion of runtime path of "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.698s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_introspection_cpp.so
+[13.702s] -- Set non-toolchain portion of runtime path of "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[13.703s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_cpp.so
+[13.706s] -- Set non-toolchain portion of runtime path of "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_typesupport_cpp.so" to ""
+[13.865s] Listing '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces'...
+[13.865s] Compiling '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/__init__.py'...
+[13.866s] Listing '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/action'...
+[13.866s] Compiling '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/action/__init__.py'...
+[13.866s] Compiling '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/action/_count_until.py'...
+[13.866s] Listing '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/msg'...
+[13.866s] Compiling '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/msg/__init__.py'...
+[13.866s] Compiling '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/msg/_hardware_status.py'...
+[13.866s] Listing '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/srv'...
+[13.866s] Compiling '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/srv/__init__.py'...
+[13.866s] Compiling '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages/bot_interfaces/srv/_reset_counter.py'...
+[13.877s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_generator_py.so
+[13.878s] -- Set non-toolchain portion of runtime path of "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/libbot_interfaces__rosidl_generator_py.so" to ""
+[13.881s] -- Old export file "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[13.881s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_generator_cExport.cmake
+[13.881s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[13.882s] -- Old export file "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[13.882s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[13.882s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.883s] -- Old export file "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[13.883s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[13.883s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.884s] -- Old export file "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[13.884s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_cExport.cmake
+[13.884s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[13.885s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_generator_cppExport.cmake
+[13.885s] -- Old export file "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[13.885s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.886s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.886s] -- Old export file "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[13.886s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[13.887s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.887s] -- Old export file "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[13.887s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_cppExport.cmake
+[13.887s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/bot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[13.888s] -- Up-to-date: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_generator_pyExport.cmake
+[13.888s] -- Installing: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/share/bot_interfaces/cmake/export_bot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[13.891s] Invoked command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1:/opt/ros/kilted /usr/bin/cmake --install /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces

@@ -4,12 +4,18 @@
   "template_dir": "/opt/ros/kilted/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
     "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_adapter/bot_interfaces:msg/HardwareStatus.idl",
-    "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_adapter/bot_interfaces:srv/ResetCounter.idl"
+    "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_adapter/bot_interfaces:srv/ResetCounter.idl",
+    "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_adapter/bot_interfaces:action/CountUntil.idl"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/kilted/share/service_msgs/msg/ServiceEventInfo.idl",
     "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces/msg/Duration.idl",
-    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces/msg/Time.idl"
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces/msg/Time.idl",
+    "action_msgs:/opt/ros/kilted/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/kilted/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/kilted/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/kilted/share/action_msgs/srv/CancelGoal.idl",
+    "unique_identifier_msgs:/opt/ros/kilted/share/unique_identifier_msgs/msg/UUID.idl"
   ],
   "target_dependencies": [
     "/opt/ros/kilted/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
@@ -22,8 +28,14 @@
     "/opt/ros/kilted/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
     "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_adapter/bot_interfaces/msg/HardwareStatus.idl",
     "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_adapter/bot_interfaces/srv/ResetCounter.idl",
+    "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_adapter/bot_interfaces/action/CountUntil.idl",
     "/opt/ros/kilted/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/kilted/share/builtin_interfaces/msg/Duration.idl",
-    "/opt/ros/kilted/share/builtin_interfaces/msg/Time.idl"
+    "/opt/ros/kilted/share/builtin_interfaces/msg/Time.idl",
+    "/opt/ros/kilted/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/kilted/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/kilted/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/kilted/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/kilted/share/unique_identifier_msgs/msg/UUID.idl"
   ]
 }

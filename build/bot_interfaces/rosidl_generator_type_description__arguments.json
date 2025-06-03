@@ -3,10 +3,13 @@
   "output_dir": "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_type_description/bot_interfaces",
   "idl_tuples": [
     "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_adapter/bot_interfaces:msg/HardwareStatus.idl",
-    "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_adapter/bot_interfaces:srv/ResetCounter.idl"
+    "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_adapter/bot_interfaces:srv/ResetCounter.idl",
+    "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_adapter/bot_interfaces:action/CountUntil.idl"
   ],
   "include_paths": [
     "service_msgs:/opt/ros/kilted/share/service_msgs",
-    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces"
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces",
+    "action_msgs:/opt/ros/kilted/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/kilted/share/unique_identifier_msgs"
   ]
 }

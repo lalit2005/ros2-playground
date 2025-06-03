@@ -71,10 +71,13 @@ include /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build
 /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/bot_interfaces__py/CMakeFiles/bot_interfaces__py: rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_c.c
 /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/bot_interfaces__py/CMakeFiles/bot_interfaces__py: rosidl_generator_py/bot_interfaces/msg/_hardware_status.py
 /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/bot_interfaces__py/CMakeFiles/bot_interfaces__py: rosidl_generator_py/bot_interfaces/srv/_reset_counter.py
+/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/bot_interfaces__py/CMakeFiles/bot_interfaces__py: rosidl_generator_py/bot_interfaces/action/_count_until.py
 /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/bot_interfaces__py/CMakeFiles/bot_interfaces__py: rosidl_generator_py/bot_interfaces/msg/__init__.py
 /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/bot_interfaces__py/CMakeFiles/bot_interfaces__py: rosidl_generator_py/bot_interfaces/srv/__init__.py
+/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/bot_interfaces__py/CMakeFiles/bot_interfaces__py: rosidl_generator_py/bot_interfaces/action/__init__.py
 /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/bot_interfaces__py/CMakeFiles/bot_interfaces__py: rosidl_generator_py/bot_interfaces/msg/_hardware_status_s.c
 /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/bot_interfaces__py/CMakeFiles/bot_interfaces__py: rosidl_generator_py/bot_interfaces/srv/_reset_counter_s.c
+/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/bot_interfaces__py/CMakeFiles/bot_interfaces__py: rosidl_generator_py/bot_interfaces/action/_count_until_s.c
 
 rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -91,9 +94,15 @@ rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastr
 rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/bot_interfaces/msg/HardwareStatus.idl
 rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/bot_interfaces/srv/ResetCounter.idl
+rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/bot_interfaces/action/CountUntil.idl
 rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/bot_interfaces__py && /usr/bin/python3 /opt/ros/kilted/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -109,11 +118,17 @@ rosidl_generator_py/bot_interfaces/msg/_hardware_status.py: rosidl_generator_py/
 rosidl_generator_py/bot_interfaces/srv/_reset_counter.py: rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bot_interfaces/srv/_reset_counter.py
 
+rosidl_generator_py/bot_interfaces/action/_count_until.py: rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bot_interfaces/action/_count_until.py
+
 rosidl_generator_py/bot_interfaces/msg/__init__.py: rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bot_interfaces/msg/__init__.py
 
 rosidl_generator_py/bot_interfaces/srv/__init__.py: rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bot_interfaces/srv/__init__.py
+
+rosidl_generator_py/bot_interfaces/action/__init__.py: rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bot_interfaces/action/__init__.py
 
 rosidl_generator_py/bot_interfaces/msg/_hardware_status_s.c: rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bot_interfaces/msg/_hardware_status_s.c
@@ -121,10 +136,16 @@ rosidl_generator_py/bot_interfaces/msg/_hardware_status_s.c: rosidl_generator_py
 rosidl_generator_py/bot_interfaces/srv/_reset_counter_s.c: rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bot_interfaces/srv/_reset_counter_s.c
 
+rosidl_generator_py/bot_interfaces/action/_count_until_s.c: rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bot_interfaces/action/_count_until_s.c
+
 bot_interfaces__py: /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/bot_interfaces__py/CMakeFiles/bot_interfaces__py
 bot_interfaces__py: rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_c.c
 bot_interfaces__py: rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 bot_interfaces__py: rosidl_generator_py/bot_interfaces/_bot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+bot_interfaces__py: rosidl_generator_py/bot_interfaces/action/__init__.py
+bot_interfaces__py: rosidl_generator_py/bot_interfaces/action/_count_until.py
+bot_interfaces__py: rosidl_generator_py/bot_interfaces/action/_count_until_s.c
 bot_interfaces__py: rosidl_generator_py/bot_interfaces/msg/__init__.py
 bot_interfaces__py: rosidl_generator_py/bot_interfaces/msg/_hardware_status.py
 bot_interfaces__py: rosidl_generator_py/bot_interfaces/msg/_hardware_status_s.c

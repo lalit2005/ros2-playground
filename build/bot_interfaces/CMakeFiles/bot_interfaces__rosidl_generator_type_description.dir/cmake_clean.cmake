@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bot_interfaces__rosidl_generator_type_description"
+  "rosidl_generator_type_description/bot_interfaces/action/CountUntil.json"
   "rosidl_generator_type_description/bot_interfaces/msg/HardwareStatus.json"
   "rosidl_generator_type_description/bot_interfaces/srv/ResetCounter.json"
 )

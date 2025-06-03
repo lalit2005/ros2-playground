@@ -68,18 +68,24 @@ include CMakeFiles/bot_interfaces__rosidl_generator_type_description.dir/progres
 
 CMakeFiles/bot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/bot_interfaces/msg/HardwareStatus.json
 CMakeFiles/bot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/bot_interfaces/srv/ResetCounter.json
+CMakeFiles/bot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/bot_interfaces/action/CountUntil.json
 
 rosidl_generator_type_description/bot_interfaces/msg/HardwareStatus.json: /opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/bot_interfaces/msg/HardwareStatus.json: /opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/bot_interfaces/msg/HardwareStatus.json: rosidl_adapter/bot_interfaces/msg/HardwareStatus.idl
 rosidl_generator_type_description/bot_interfaces/msg/HardwareStatus.json: rosidl_adapter/bot_interfaces/srv/ResetCounter.idl
+rosidl_generator_type_description/bot_interfaces/msg/HardwareStatus.json: rosidl_adapter/bot_interfaces/action/CountUntil.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_type_description__arguments.json
 
 rosidl_generator_type_description/bot_interfaces/srv/ResetCounter.json: rosidl_generator_type_description/bot_interfaces/msg/HardwareStatus.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/bot_interfaces/srv/ResetCounter.json
 
+rosidl_generator_type_description/bot_interfaces/action/CountUntil.json: rosidl_generator_type_description/bot_interfaces/msg/HardwareStatus.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/bot_interfaces/action/CountUntil.json
+
 bot_interfaces__rosidl_generator_type_description: CMakeFiles/bot_interfaces__rosidl_generator_type_description
+bot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/bot_interfaces/action/CountUntil.json
 bot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/bot_interfaces/msg/HardwareStatus.json
 bot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/bot_interfaces/srv/ResetCounter.json
 bot_interfaces__rosidl_generator_type_description: CMakeFiles/bot_interfaces__rosidl_generator_type_description.dir/build.make

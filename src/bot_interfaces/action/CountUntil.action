@@ -1,9 +1,9 @@
-# goal
+# Goal
 int64 target_number
-float delay
+float64 delay
 ---
-# result
+# Result
 int64 reached_number
 ---
-# feedback
+# Feedback
 int64 current_number

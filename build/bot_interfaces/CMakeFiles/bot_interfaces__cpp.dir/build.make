@@ -76,6 +76,11 @@ CMakeFiles/bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/srv/detail/r
 CMakeFiles/bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/srv/detail/reset_counter__struct.hpp
 CMakeFiles/bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/srv/detail/reset_counter__traits.hpp
 CMakeFiles/bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/srv/detail/reset_counter__type_support.hpp
+CMakeFiles/bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/action/count_until.hpp
+CMakeFiles/bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/action/detail/count_until__builder.hpp
+CMakeFiles/bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/action/detail/count_until__struct.hpp
+CMakeFiles/bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/action/detail/count_until__traits.hpp
+CMakeFiles/bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/action/detail/count_until__type_support.hpp
 CMakeFiles/bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp: /opt/ros/kilted/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -99,9 +104,15 @@ rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp: /opt/ros/kilted/sha
 rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp: /opt/ros/kilted/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp: rosidl_adapter/bot_interfaces/msg/HardwareStatus.idl
 rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp: rosidl_adapter/bot_interfaces/srv/ResetCounter.idl
+rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp: rosidl_adapter/bot_interfaces/action/CountUntil.idl
 rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp: /opt/ros/kilted/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp: /opt/ros/kilted/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp: /opt/ros/kilted/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp: /opt/ros/kilted/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp: /opt/ros/kilted/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp: /opt/ros/kilted/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp: /opt/ros/kilted/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp: /opt/ros/kilted/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/kilted/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -132,10 +143,30 @@ rosidl_generator_cpp/bot_interfaces/srv/detail/reset_counter__traits.hpp: rosidl
 rosidl_generator_cpp/bot_interfaces/srv/detail/reset_counter__type_support.hpp: rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bot_interfaces/srv/detail/reset_counter__type_support.hpp
 
+rosidl_generator_cpp/bot_interfaces/action/count_until.hpp: rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bot_interfaces/action/count_until.hpp
+
+rosidl_generator_cpp/bot_interfaces/action/detail/count_until__builder.hpp: rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bot_interfaces/action/detail/count_until__builder.hpp
+
+rosidl_generator_cpp/bot_interfaces/action/detail/count_until__struct.hpp: rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bot_interfaces/action/detail/count_until__struct.hpp
+
+rosidl_generator_cpp/bot_interfaces/action/detail/count_until__traits.hpp: rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bot_interfaces/action/detail/count_until__traits.hpp
+
+rosidl_generator_cpp/bot_interfaces/action/detail/count_until__type_support.hpp: rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bot_interfaces/action/detail/count_until__type_support.hpp
+
 rosidl_generator_cpp/bot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/bot_interfaces/msg/hardware_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 bot_interfaces__cpp: CMakeFiles/bot_interfaces__cpp
+bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/action/count_until.hpp
+bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/action/detail/count_until__builder.hpp
+bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/action/detail/count_until__struct.hpp
+bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/action/detail/count_until__traits.hpp
+bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/action/detail/count_until__type_support.hpp
 bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/msg/detail/hardware_status__builder.hpp
 bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/msg/detail/hardware_status__struct.hpp
 bot_interfaces__cpp: rosidl_generator_cpp/bot_interfaces/msg/detail/hardware_status__traits.hpp

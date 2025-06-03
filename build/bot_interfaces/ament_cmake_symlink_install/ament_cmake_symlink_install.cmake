@@ -318,3 +318,141 @@ endfunction()
 message(STATUS "Execute custom install script")
 
 # begin of custom install code
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/bot_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_type_description/bot_interfaces/msg/HardwareStatus.json" "DESTINATION" "share/bot_interfaces/msg")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_type_description/bot_interfaces/srv/ResetCounter.json" "DESTINATION" "share/bot_interfaces/srv")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_type_description/bot_interfaces/action/CountUntil.json" "DESTINATION" "share/bot_interfaces/action")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_c/bot_interfaces/" "DESTINATION" "include/bot_interfaces/bot_interfaces" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces" DIRECTORY "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_c/bot_interfaces/" "DESTINATION" "include/bot_interfaces/bot_interfaces" "PATTERN" "*.h")
+
+# install(FILES "/opt/ros/kilted/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/bot_interfaces/environment")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_4_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/bot_interfaces/environment")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_5_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_typesupport_fastrtps_c/bot_interfaces/" "DESTINATION" "include/bot_interfaces/bot_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces" DIRECTORY "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_typesupport_fastrtps_c/bot_interfaces/" "DESTINATION" "include/bot_interfaces/bot_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_typesupport_introspection_c/bot_interfaces/" "DESTINATION" "include/bot_interfaces/bot_interfaces" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces" DIRECTORY "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_typesupport_introspection_c/bot_interfaces/" "DESTINATION" "include/bot_interfaces/bot_interfaces" "PATTERN" "*.h")
+
+# install(DIRECTORY "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_cpp/bot_interfaces/" "DESTINATION" "include/bot_interfaces/bot_interfaces" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces" DIRECTORY "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_cpp/bot_interfaces/" "DESTINATION" "include/bot_interfaces/bot_interfaces" "PATTERN" "*.hpp")
+
+# install(DIRECTORY "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_typesupport_fastrtps_cpp/bot_interfaces/" "DESTINATION" "include/bot_interfaces/bot_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces" DIRECTORY "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_typesupport_fastrtps_cpp/bot_interfaces/" "DESTINATION" "include/bot_interfaces/bot_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_typesupport_introspection_cpp/bot_interfaces/" "DESTINATION" "include/bot_interfaces/bot_interfaces" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces" DIRECTORY "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_typesupport_introspection_cpp/bot_interfaces/" "DESTINATION" "include/bot_interfaces/bot_interfaces" "PATTERN" "*.hpp")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/bot_interfaces/environment")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_6_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/bot_interfaces/environment")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_7_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_python/bot_interfaces/bot_interfaces.egg-info/" "DESTINATION" "lib/python3.12/site-packages/bot_interfaces-0.0.0-py3.12.egg-info")
+ament_cmake_symlink_install_directory("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces" DIRECTORY "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_python/bot_interfaces/bot_interfaces.egg-info/" "DESTINATION" "lib/python3.12/site-packages/bot_interfaces-0.0.0-py3.12.egg-info")
+
+# install(DIRECTORY "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_py/bot_interfaces/" "DESTINATION" "lib/python3.12/site-packages/bot_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces" DIRECTORY "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_py/bot_interfaces/" "DESTINATION" "lib/python3.12/site-packages/bot_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+
+# install("TARGETS" "bot_interfaces_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/bot_interfaces")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "bot_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/bot_interfaces")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "bot_interfaces_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/bot_interfaces")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_adapter/bot_interfaces/msg/HardwareStatus.idl" "DESTINATION" "share/bot_interfaces/msg")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_8_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_adapter/bot_interfaces/srv/ResetCounter.idl" "DESTINATION" "share/bot_interfaces/srv")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_9_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_adapter/bot_interfaces/action/CountUntil.idl" "DESTINATION" "share/bot_interfaces/action")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_10_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces/msg/HardwareStatus.msg" "DESTINATION" "share/bot_interfaces/msg")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_11_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces/srv/ResetCounter.srv" "DESTINATION" "share/bot_interfaces/srv")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_12_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces/action/CountUntil.action" "DESTINATION" "share/bot_interfaces/action")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_13_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bot_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_14_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/bot_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_15_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/opt/ros/kilted/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/bot_interfaces/environment")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_16_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/bot_interfaces/environment")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_17_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/opt/ros/kilted/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/bot_interfaces/environment")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_18_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/bot_interfaces/environment")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_19_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/bot_interfaces")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_20_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/bot_interfaces")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_21_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/bot_interfaces")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_22_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/bot_interfaces")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_23_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/bot_interfaces")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_24_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/bot_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_25_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/bot_interfaces/cmake")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_26_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/bot_interfaces/cmake")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_27_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/bot_interfaces/cmake")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_28_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/bot_interfaces/cmake")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_29_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/bot_interfaces/cmake")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_30_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/bot_interfaces/cmake")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_31_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/bot_interfaces/cmake")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_32_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_core/bot_interfacesConfig.cmake" "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_core/bot_interfacesConfig-version.cmake" "DESTINATION" "share/bot_interfaces/cmake")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_33_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/bot_interfaces/package.xml" "DESTINATION" "share/bot_interfaces")
+include("/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/ament_cmake_symlink_install_files_34_${CMAKE_INSTALL_CONFIG_NAME}.cmake")

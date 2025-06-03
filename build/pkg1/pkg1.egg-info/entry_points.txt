@@ -1,4 +1,6 @@
 [console_scripts]
+actionclient = pkg1.actionclient:main
+actionserver = pkg1.actionserver:main
 client = pkg1.client:main
 numpub = pkg1.numpub:main
 numsub = pkg1.numsub:main

@@ -79,9 +79,15 @@ rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_
 rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp: /opt/ros/kilted/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp: rosidl_adapter/bot_interfaces/msg/HardwareStatus.idl
 rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp: rosidl_adapter/bot_interfaces/srv/ResetCounter.idl
+rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp: rosidl_adapter/bot_interfaces/action/CountUntil.idl
 rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp: /opt/ros/kilted/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp: /opt/ros/kilted/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp: /opt/ros/kilted/share/builtin_interfaces/msg/Time.idl
+rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp: /opt/ros/kilted/share/action_msgs/msg/GoalInfo.idl
+rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp: /opt/ros/kilted/share/action_msgs/msg/GoalStatus.idl
+rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp: /opt/ros/kilted/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp: /opt/ros/kilted/share/action_msgs/srv/CancelGoal.idl
+rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp: /opt/ros/kilted/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support for eProsima Fast-RTPS"
 	/usr/bin/python3 /opt/ros/kilted/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_typesupport_fastrtps_cpp__arguments.json
 
@@ -93,6 +99,12 @@ rosidl_typesupport_fastrtps_cpp/bot_interfaces/srv/detail/dds_fastrtps/reset_cou
 
 rosidl_typesupport_fastrtps_cpp/bot_interfaces/srv/detail/reset_counter__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/bot_interfaces/srv/detail/reset_counter__rosidl_typesupport_fastrtps_cpp.hpp
+
+rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp: rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_cpp.hpp
 
 CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o: CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make
 CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp
@@ -122,30 +134,50 @@ CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesuppor
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/srv/detail/dds_fastrtps/reset_counter__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_typesupport_fastrtps_cpp/bot_interfaces/srv/detail/dds_fastrtps/reset_counter__type_support.cpp -o CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/srv/detail/dds_fastrtps/reset_counter__type_support.cpp.s
 
+CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o: CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp
+CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o: CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o -MF CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o.d -o CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o -c /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp
+
+CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp > CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.i
+
+CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp -o CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.s
+
 # Object files for target bot_interfaces__rosidl_typesupport_fastrtps_cpp
 bot_interfaces__rosidl_typesupport_fastrtps_cpp_OBJECTS = \
 "CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o" \
-"CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/srv/detail/dds_fastrtps/reset_counter__type_support.cpp.o"
+"CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/srv/detail/dds_fastrtps/reset_counter__type_support.cpp.o" \
+"CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o"
 
 # External object files for target bot_interfaces__rosidl_typesupport_fastrtps_cpp
 bot_interfaces__rosidl_typesupport_fastrtps_cpp_EXTERNAL_OBJECTS =
 
 libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o
 libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/srv/detail/dds_fastrtps/reset_counter__type_support.cpp.o
+libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o
 libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make
+libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
+libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: libbot_interfaces__rosidl_generator_c.so
 libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
 libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
-libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: libbot_interfaces__rosidl_generator_c.so
 libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/librosidl_typesupport_fastrtps_cpp.so
 libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/libfastcdr.so.2.3.0
 libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/librmw.so
 libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/librosidl_dynamic_typesupport.so
+libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/libaction_msgs__rosidl_generator_c.so
 libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/libservice_msgs__rosidl_generator_c.so
 libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_generator_c.so
+libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/libunique_identifier_msgs__rosidl_generator_c.so
 libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/librosidl_runtime_c.so
 libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/librcutils.so
 libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libbot_interfaces__rosidl_typesupport_fastrtps_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +188,8 @@ CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/clean
 
+CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_cpp.hpp
+CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/bot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp
 CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp
 CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/bot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/bot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/bot_interfaces/srv/detail/dds_fastrtps/reset_counter__type_support.cpp

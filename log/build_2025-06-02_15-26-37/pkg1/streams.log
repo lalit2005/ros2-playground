@@ -1,0 +1,32 @@
+[3.521s] Invoking command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/pkg1': PYTHONPATH=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg1 build --build-base /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/build install --record /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/install.log --single-version-externally-managed install_data
+[4.540s] running egg_info
+[4.611s] writing ../../build/pkg1/pkg1.egg-info/PKG-INFO
+[4.611s] writing dependency_links to ../../build/pkg1/pkg1.egg-info/dependency_links.txt
+[4.612s] writing entry points to ../../build/pkg1/pkg1.egg-info/entry_points.txt
+[4.613s] writing requirements to ../../build/pkg1/pkg1.egg-info/requires.txt
+[4.614s] writing top-level names to ../../build/pkg1/pkg1.egg-info/top_level.txt
+[4.763s] reading manifest file '../../build/pkg1/pkg1.egg-info/SOURCES.txt'
+[4.766s] writing manifest file '../../build/pkg1/pkg1.egg-info/SOURCES.txt'
+[4.766s] running build
+[4.766s] running build_py
+[4.767s] copying pkg1/actionclient.py -> /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/build/lib/pkg1
+[4.768s] copying pkg1/actionserver.py -> /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/build/lib/pkg1
+[4.769s] running install
+[4.791s] running install_lib
+[4.868s] copying /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/build/lib/pkg1/actionclient.py -> /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages/pkg1
+[4.869s] copying /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/build/lib/pkg1/actionserver.py -> /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages/pkg1
+[4.872s] byte-compiling /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages/pkg1/actionclient.py to actionclient.cpython-312.pyc
+[4.875s] byte-compiling /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages/pkg1/actionserver.py to actionserver.cpython-312.pyc
+[4.877s] running install_data
+[4.878s] running install_egg_info
+[4.978s] removing '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages/pkg1-0.0.0-py3.12.egg-info' (and everything under it)
+[4.980s] Copying ../../build/pkg1/pkg1.egg-info to /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages/pkg1-0.0.0-py3.12.egg-info
+[4.984s] running install_scripts
+[5.616s] Installing actionclient script to /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/pkg1
+[5.617s] Installing actionserver script to /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/pkg1
+[5.618s] Installing client script to /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/pkg1
+[5.619s] Installing numpub script to /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/pkg1
+[5.620s] Installing numsub script to /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/pkg1
+[5.620s] Installing test_node script to /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/pkg1
+[5.621s] writing list of installed files to '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/install.log'
+[5.721s] Invoked command in '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/pkg1' returned '0': PYTHONPATH=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg1 build --build-base /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/build install --record /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/install.log --single-version-externally-managed install_data

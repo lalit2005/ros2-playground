@@ -90,9 +90,15 @@ rosidl_generator_c/bot_interfaces/msg/hardware_status.h: /opt/ros/kilted/share/r
 rosidl_generator_c/bot_interfaces/msg/hardware_status.h: /opt/ros/kilted/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/bot_interfaces/msg/hardware_status.h: rosidl_adapter/bot_interfaces/msg/HardwareStatus.idl
 rosidl_generator_c/bot_interfaces/msg/hardware_status.h: rosidl_adapter/bot_interfaces/srv/ResetCounter.idl
+rosidl_generator_c/bot_interfaces/msg/hardware_status.h: rosidl_adapter/bot_interfaces/action/CountUntil.idl
 rosidl_generator_c/bot_interfaces/msg/hardware_status.h: /opt/ros/kilted/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_c/bot_interfaces/msg/hardware_status.h: /opt/ros/kilted/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/bot_interfaces/msg/hardware_status.h: /opt/ros/kilted/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_c/bot_interfaces/msg/hardware_status.h: /opt/ros/kilted/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_c/bot_interfaces/msg/hardware_status.h: /opt/ros/kilted/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_c/bot_interfaces/msg/hardware_status.h: /opt/ros/kilted/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_c/bot_interfaces/msg/hardware_status.h: /opt/ros/kilted/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_c/bot_interfaces/msg/hardware_status.h: /opt/ros/kilted/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/kilted/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_c__arguments.json
 
@@ -117,6 +123,18 @@ rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__struct.h: rosidl_gen
 rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__type_support.h: rosidl_generator_c/bot_interfaces/msg/hardware_status.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__type_support.h
 
+rosidl_generator_c/bot_interfaces/action/count_until.h: rosidl_generator_c/bot_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bot_interfaces/action/count_until.h
+
+rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.h: rosidl_generator_c/bot_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.h
+
+rosidl_generator_c/bot_interfaces/action/detail/count_until__struct.h: rosidl_generator_c/bot_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bot_interfaces/action/detail/count_until__struct.h
+
+rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.h: rosidl_generator_c/bot_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.h
+
 rosidl_generator_c/bot_interfaces/msg/detail/hardware_status__description.c: rosidl_generator_c/bot_interfaces/msg/hardware_status.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bot_interfaces/msg/detail/hardware_status__description.c
 
@@ -134,6 +152,15 @@ rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__functions.c: rosidl_
 
 rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__type_support.c: rosidl_generator_c/bot_interfaces/msg/hardware_status.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__type_support.c
+
+rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c: rosidl_generator_c/bot_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c
+
+rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c: rosidl_generator_c/bot_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c
+
+rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c: rosidl_generator_c/bot_interfaces/msg/hardware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c
 
 CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/msg/detail/hardware_status__description.c.o: CMakeFiles/bot_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/msg/detail/hardware_status__description.c.o: rosidl_generator_c/bot_interfaces/msg/detail/hardware_status__description.c
@@ -219,6 +246,48 @@ CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfa
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__type_support.c -o CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__type_support.c.s
 
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c.o: CMakeFiles/bot_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c.o: rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c.o: CMakeFiles/bot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c.o -MF CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c.o.d -o CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c.o -c /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c
+
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c > CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c.i
+
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c -o CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c.s
+
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c.o: CMakeFiles/bot_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c.o: rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c.o: CMakeFiles/bot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c.o -MF CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c.o.d -o CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c.o -c /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c
+
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c > CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c.i
+
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c -o CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c.s
+
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c.o: CMakeFiles/bot_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c.o: rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c.o: CMakeFiles/bot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c.o -MF CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c.o.d -o CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c.o -c /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c
+
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c > CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c.i
+
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c -o CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c.s
+
 # Object files for target bot_interfaces__rosidl_generator_c
 bot_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/msg/detail/hardware_status__description.c.o" \
@@ -226,7 +295,10 @@ bot_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/msg/detail/hardware_status__type_support.c.o" \
 "CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__description.c.o" \
 "CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__functions.c.o" \
-"CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__type_support.c.o"
+"CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__type_support.c.o" \
+"CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c.o" \
+"CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c.o" \
+"CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c.o"
 
 # External object files for target bot_interfaces__rosidl_generator_c
 bot_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -237,13 +309,18 @@ libbot_interfaces__rosidl_generator_c.so: CMakeFiles/bot_interfaces__rosidl_gene
 libbot_interfaces__rosidl_generator_c.so: CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__description.c.o
 libbot_interfaces__rosidl_generator_c.so: CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__functions.c.o
 libbot_interfaces__rosidl_generator_c.so: CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/srv/detail/reset_counter__type_support.c.o
+libbot_interfaces__rosidl_generator_c.so: CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c.o
+libbot_interfaces__rosidl_generator_c.so: CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c.o
+libbot_interfaces__rosidl_generator_c.so: CMakeFiles/bot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c.o
 libbot_interfaces__rosidl_generator_c.so: CMakeFiles/bot_interfaces__rosidl_generator_c.dir/build.make
+libbot_interfaces__rosidl_generator_c.so: /opt/ros/kilted/lib/libaction_msgs__rosidl_generator_c.so
+libbot_interfaces__rosidl_generator_c.so: /opt/ros/kilted/lib/libunique_identifier_msgs__rosidl_generator_c.so
 libbot_interfaces__rosidl_generator_c.so: /opt/ros/kilted/lib/libservice_msgs__rosidl_generator_c.so
 libbot_interfaces__rosidl_generator_c.so: /opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libbot_interfaces__rosidl_generator_c.so: /opt/ros/kilted/lib/librosidl_runtime_c.so
 libbot_interfaces__rosidl_generator_c.so: /opt/ros/kilted/lib/librcutils.so
 libbot_interfaces__rosidl_generator_c.so: CMakeFiles/bot_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libbot_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/bot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C shared library libbot_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bot_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -254,6 +331,13 @@ CMakeFiles/bot_interfaces__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/bot_interfaces__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/bot_interfaces__rosidl_generator_c.dir/clean
 
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/bot_interfaces/action/count_until.h
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/bot_interfaces/action/detail/count_until__description.c
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.c
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/bot_interfaces/action/detail/count_until__functions.h
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/bot_interfaces/action/detail/count_until__struct.h
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.c
+CMakeFiles/bot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/bot_interfaces/action/detail/count_until__type_support.h
 CMakeFiles/bot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/bot_interfaces/msg/detail/hardware_status__description.c
 CMakeFiles/bot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/bot_interfaces/msg/detail/hardware_status__functions.c
 CMakeFiles/bot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/bot_interfaces/msg/detail/hardware_status__functions.h

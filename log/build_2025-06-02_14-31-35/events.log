@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.001195] (-) JobUnselected: {'identifier': 'bot_interfaces'}
+[0.001349] (pkg1) JobQueued: {'identifier': 'pkg1', 'dependencies': OrderedDict({'bot_interfaces': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces'})}
+[0.001468] (pkg1) JobStarted: {'identifier': 'pkg1'}
+[0.098033] (-) TimerEvent: {}
+[0.198946] (-) TimerEvent: {}
+[0.299645] (-) TimerEvent: {}
+[0.400412] (-) TimerEvent: {}
+[0.501017] (-) TimerEvent: {}
+[0.601644] (-) TimerEvent: {}
+[0.702298] (-) TimerEvent: {}
+[0.802923] (-) TimerEvent: {}
+[0.903498] (-) TimerEvent: {}
+[1.004167] (-) TimerEvent: {}
+[1.104776] (-) TimerEvent: {}
+[1.205398] (-) TimerEvent: {}
+[1.306200] (-) TimerEvent: {}
+[1.406916] (-) TimerEvent: {}
+[1.507637] (-) TimerEvent: {}
+[1.608470] (-) TimerEvent: {}
+[1.709306] (-) TimerEvent: {}
+[1.810137] (-) TimerEvent: {}
+[1.910954] (-) TimerEvent: {}
+[2.011641] (-) TimerEvent: {}
+[2.112271] (-) TimerEvent: {}
+[2.212983] (-) TimerEvent: {}
+[2.313580] (-) TimerEvent: {}
+[2.414321] (-) TimerEvent: {}
+[2.514926] (-) TimerEvent: {}
+[2.615537] (-) TimerEvent: {}
+[2.716094] (-) TimerEvent: {}
+[2.816634] (-) TimerEvent: {}
+[2.917438] (-) TimerEvent: {}
+[3.018181] (-) TimerEvent: {}
+[3.118775] (-) TimerEvent: {}
+[3.219469] (-) TimerEvent: {}
+[3.320050] (-) TimerEvent: {}
+[3.420652] (-) TimerEvent: {}
+[3.521284] (-) TimerEvent: {}
+[3.621807] (-) TimerEvent: {}
+[3.722400] (-) TimerEvent: {}
+[3.822958] (-) TimerEvent: {}
+[3.923505] (-) TimerEvent: {}
+[4.023991] (-) TimerEvent: {}
+[4.124571] (-) TimerEvent: {}
+[4.225177] (-) TimerEvent: {}
+[4.277396] (pkg1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1', 'env': {'USER': 'lalit', 'STARSHIP_SHELL': 'zsh', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'BUN_INSTALL': '/home/lalit/.bun', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib:/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/lalit', 'OLDPWD': '/home/lalit', 'TERMINFO': '/usr/lib/kitty/terminfo', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/lalit/.config/autostart/kitty.desktop', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '2317', 'KITTY_PID': '2787', 'FNM_ARCH': 'x64', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'SYSTEMD_EXEC_PID': '2512', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2787', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'FNM_VERSION_FILE_STRATEGY': 'local', 'FNM_LOGLEVEL': 'info', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'lalit', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '9:21793', 'DESKTOP_AUTOSTART_ID': '10a8c6186535637b8c174883691781849600000025120018', 'FNM_NODE_DIST_MIRROR': 'https://nodejs.org/dist', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'lalit', 'TERM': 'xterm-kitty', 'KITTY_PUBLIC_KEY': '1:T#p#X0d=ecdTQ1bc8~@FC#dgKrESP{UBA>kEqn)e', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/home/lalit/.bun/bin:/run/user/1000/fnm_multishells/14996_1748854855118/bin:/home/lalit/.local/share/fnm:/home/lalit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lalit/.fzf/bin', 'INVOCATION_ID': '0609d916f0f841fc864c69ebd46e171a', 'SESSION_MANAGER': 'local/lalit-thinkpad:@/tmp/.ICE-unix/2512,unix/lalit-thinkpad:/tmp/.ICE-unix/2512', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.88W562', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'FNM_DIR': '/home/lalit/.local/share/fnm', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'FNM_RESOLVE_ENGINES': 'true', 'AMENT_PREFIX_PATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces:/opt/ros/kilted', 'ROS_DOMAIN_ID': '230', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '2', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/kilted/share', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1', 'FNM_MULTISHELL_PATH': '/run/user/1000/fnm_multishells/14996_1748854855118', 'XDG_DATA_DIRS': '/home/lalit/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'STARSHIP_SESSION_KEY': '2935964732526289', 'PYTHONPATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages:/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'FNM_COREPACK_ENABLED': 'false', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/bot_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor'}, 'shell': False}
+[4.325390] (-) TimerEvent: {}
+[4.426026] (-) TimerEvent: {}
+[4.526663] (-) TimerEvent: {}
+[4.627311] (-) TimerEvent: {}
+[4.727918] (-) TimerEvent: {}
+[4.828502] (-) TimerEvent: {}
+[4.929025] (-) TimerEvent: {}
+[5.029528] (-) TimerEvent: {}
+[5.129968] (-) TimerEvent: {}
+[5.230482] (-) TimerEvent: {}
+[5.330996] (-) TimerEvent: {}
+[5.431640] (-) TimerEvent: {}
+[5.532343] (-) TimerEvent: {}
+[5.626061] (pkg1) StdoutLine: {'line': b'running develop\n'}
+[5.632486] (-) TimerEvent: {}
+[5.733091] (-) TimerEvent: {}
+[5.833703] (-) TimerEvent: {}
+[5.934339] (-) TimerEvent: {}
+[6.035167] (-) TimerEvent: {}
+[6.136028] (-) TimerEvent: {}
+[6.236761] (-) TimerEvent: {}
+[6.337582] (-) TimerEvent: {}
+[6.438651] (-) TimerEvent: {}
+[6.539303] (-) TimerEvent: {}
+[6.639958] (-) TimerEvent: {}
+[6.719988] (pkg1) StdoutLine: {'line': b'running egg_info\n'}
+[6.740149] (-) TimerEvent: {}
+[6.816475] (pkg1) StdoutLine: {'line': b'writing pkg1.egg-info/PKG-INFO\n'}
+[6.817271] (pkg1) StdoutLine: {'line': b'writing dependency_links to pkg1.egg-info/dependency_links.txt\n'}
+[6.818009] (pkg1) StdoutLine: {'line': b'writing entry points to pkg1.egg-info/entry_points.txt\n'}
+[6.818405] (pkg1) StdoutLine: {'line': b'writing requirements to pkg1.egg-info/requires.txt\n'}
+[6.818978] (pkg1) StdoutLine: {'line': b'writing top-level names to pkg1.egg-info/top_level.txt\n'}
+[6.840317] (-) TimerEvent: {}
+[6.940945] (-) TimerEvent: {}
+[7.024680] (pkg1) StdoutLine: {'line': b"reading manifest file 'pkg1.egg-info/SOURCES.txt'\n"}
+[7.028210] (pkg1) StdoutLine: {'line': b"writing manifest file 'pkg1.egg-info/SOURCES.txt'\n"}
+[7.041153] (-) TimerEvent: {}
+[7.141740] (-) TimerEvent: {}
+[7.157179] (pkg1) StdoutLine: {'line': b'running build_ext\n'}
+[7.159808] (pkg1) StdoutLine: {'line': b'Creating /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/python3.12/site-packages/pkg1.egg-link (link to .)\n'}
+[7.163921] (pkg1) StdoutLine: {'line': b'Installing client script to /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/pkg1\n'}
+[7.165118] (pkg1) StdoutLine: {'line': b'Installing numpub script to /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/pkg1\n'}
+[7.166066] (pkg1) StdoutLine: {'line': b'Installing numsub script to /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/pkg1\n'}
+[7.167151] (pkg1) StdoutLine: {'line': b'Installing test_node script to /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/lib/pkg1\n'}
+[7.168693] (pkg1) StdoutLine: {'line': b'\n'}
+[7.169662] (pkg1) StdoutLine: {'line': b'Installed /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1\n'}
+[7.170787] (pkg1) StdoutLine: {'line': b'running symlink_data\n'}
+[7.173328] (pkg1) StdoutLine: {'line': b'symbolically linking /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/resource/pkg1 -> /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/share/ament_index/resource_index/packages\n'}
+[7.174020] (pkg1) StdoutLine: {'line': b'symbolically linking /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/build/pkg1/package.xml -> /home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/install/pkg1/share/pkg1\n'}
+[7.241910] (-) TimerEvent: {}
+[7.310416] (pkg1) CommandEnded: {'returncode': 0}
+[7.341983] (-) TimerEvent: {}
+[7.377990] (pkg1) JobEnded: {'identifier': 'pkg1', 'rc': 0}
+[7.381141] (-) EventReactorShutdown: {}
