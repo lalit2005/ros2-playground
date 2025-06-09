@@ -1,0 +1,4 @@
+/numpub:
+  ros__parameters:
+    number: 7
+    publish_period: 1.5

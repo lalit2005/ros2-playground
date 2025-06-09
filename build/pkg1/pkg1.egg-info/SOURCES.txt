@@ -15,11 +15,8 @@ pkg1/client.py
 pkg1/mynode.py
 pkg1/numpub.py
 pkg1/numsub.py
-pkg1.egg-info/PKG-INFO
-pkg1.egg-info/SOURCES.txt
-pkg1.egg-info/dependency_links.txt
-pkg1.egg-info/entry_points.txt
-pkg1.egg-info/requires.txt
-pkg1.egg-info/top_level.txt
-pkg1.egg-info/zip-safe
 resource/pkg1
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+test/test_xmllint.py

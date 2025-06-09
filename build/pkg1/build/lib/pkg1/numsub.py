@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import rclpy
+import sys
 from rclpy.node import Node
 from example_interfaces.msg import Int64
 from bot_interfaces.srv import ResetCounter
@@ -14,11 +15,12 @@ class MyNode2(Node):
         self.get_logger().info("topic subscriber and counter server initialized")
 
     def callback_number(self, msg: Int64):
-        self.counter_ *= msg.data
+        self.counter_ += msg.data
         self.get_logger().info("counter: " + str(self.counter_))
 
     def callback_number_reset_counter(self, request: ResetCounter.Request, response: ResetCounter.Response):
         self.counter_ = request.reset_value
+        sys.set_int_max_str_digits(8601)
         self.get_logger().info("reset counter to " + str(self.counter_))
         response.success = True
         response.message = "success"

@@ -1,1 +1,0 @@
-/home/lalit/Documents/dev/scratchpad/ros-playground/shankar_bot_ws/src/pkg1/setup.py

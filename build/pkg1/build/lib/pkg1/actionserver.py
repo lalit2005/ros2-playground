@@ -15,6 +15,7 @@ from rclpy.type_support import FeedbackMessage
 class MyNode5(Node):
     def __init__(self):
         super().__init__('action_server_node')
+        self.log = self.get_logger().info
         self.count_until_server_ = ActionServer(
             self,
             CountUntil,
@@ -24,7 +25,6 @@ class MyNode5(Node):
             cancel_callback=self.cancel_callback_,
             callback_group=ReentrantCallbackGroup()
         )
-        self.log = self.get_logger().info
 
     def goal_callback(self, goal_request ):
         self.get_logger().info("received a goal")
@@ -50,22 +50,8 @@ class MyNode5(Node):
                 return result
 
             counter += 1
-
-            # feedback.current_number = counter
-            # goal_handle.publish_feedback(feedback)
-
-            # the above one works absolutely fine. but to
-            # satisfy the pyright type checker, you need to do some wizardry
-            # an other way to silence the type checker:
-            # goal_handle.publish_feedback(raw_feedback)  # type: ignore[arg-type]
-
             feedback.current_number = counter
-            # create the wrapper that Pyright wants
-            wrapper = CountUntil.Impl.FeedbackMessage()
-            wrapper.goal_id = goal_handle.goal_id
-            wrapper.feedback = feedback
-            goal_handle.publish_feedback(cast(FeedbackMessage[CountUntil.Feedback], wrapper))
-
+            goal_handle.publish_feedback(feedback) # type: ignore[arg-type]
             self.get_logger().info(str(counter))
             time.sleep(delay)
 
@@ -86,3 +72,4 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
